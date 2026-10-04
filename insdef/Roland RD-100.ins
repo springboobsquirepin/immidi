@@ -1,0 +1,109 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland RD-100 Digital Stage Piano
+;
+; RD-100 information supplied by Terry Bolton
+;
+; Li'l Chips Systems - 1.0a August 11 2000
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland RD-100 Piano]
+0=001 Piano1
+1=002 Piano2
+2=003 -
+3=004 Harpsichord
+4=005 Vibraphone
+5=006 Electric Pianol
+6=007 Electric Piano2
+7=008 PipeOrgan
+8=009 Strings
+9=010 Pianol+Piano2
+10=011 Piano1+Harpsi
+11=012 Pianol+Vibra
+12=013 Piano1+El.Piano1
+13=014 Piano1+El.Piano2
+14=015 Piano1+PipeOrgan
+15=016 Pianol+Strings
+16=017 Piano2+Harpsi
+17=018 Piano2+Vibra
+18=019 Piano2+El.Pianol
+19=020 Piano2+El.Piano2
+20=021 Piano2+PipeOrgan
+21=022 Piano2+Strings
+22=023 Harpsi+Vibra
+23=024 Harpsi+El.Piano1
+24=025 Harpsi+El.Piano2
+25=026 Harpsi+PipeOrgan
+26=027 Harpsi+Strings
+27=028 Vibra+El.Piano1
+28=029 Vibra+El.Piano2
+29=030 Vibra+PipeOrgan
+30=031 Vibra+Strings
+31=032 El.Pno1+El.Piano2
+32=033 El.Pnol+PipeOrgan
+33=034 El.Pno1+Strings
+34=035 El.Pno2+PipeOrgan
+35=036 El.Pno2+Strings
+36=037 PipeOrgan+Strings
+37=038 Ac.Bass/Piano1
+38=039 Ac.Bass/Piano2
+39=040 Strings/Harpsi
+40=041 Ac.Bass/Vibra
+41=042 Ac.Bass/El.Pianol
+42=043 Ac.Bass/El.Piano2
+43=044 PipeOrgan/Harpsi
+44=045 Strings/Piano1
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+[Roland RD-100 Controllers]
+6=6-Data Entry MSB
+7=7-Volume
+11=11-Expression
+38=38-Data Entry LSB
+64=64-Hold 1 (sustain)
+67=67-Soft Pedal
+91=91-Reverb Depth
+93=93-Chorus Depth
+100=100-RPN LSB
+101=101-RPN MSB
+121=121-Reset Controllers
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+[Roland RD-100 RPN]
+1=Master Fine Tuning
+2=Master Coarse Tuning
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+[Roland RD-100 Patch]
+Control=Roland RD-100 Controllers
+RPN=Roland RD-100 RPN
+Patch[*]=Roland RD-100 Piano

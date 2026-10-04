@@ -1,0 +1,78 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland S-330 Digital Sampling Keyboard
+;
+; Li'l Chips Systems - 1.0a December 16 1999
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland S-330 Sampler]
+0=001 P11
+1=002 P12
+2=003 P13
+3=004 P14
+4=005 P15
+5=006 P16
+6=007 P17
+7=008 P18
+8=009 P21
+9=010 P22
+10=011 P23
+11=012 P24
+12=013 P25
+13=014 P26
+14=015 P27
+15=016 P28
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+[Roland S-330 Controllers]
+1=1-Modulation
+6=6-Data Entry MSB
+38=38-Data Entry LSB
+64=64-Hold 1
+100=100-RPN LSB
+101=101-RPN MSB
+123=123-All Note Off
+124=124-Omni Off
+125=125-Omni On
+126=126-Mono
+127=127-Poly
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+[Roland S-330 RPN]
+0=Pitch Bend Sensitivity
+1=Master Fine Tuning
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+[Roland S-330 Sampler]
+Control=Roland S-330 Controllers
+RPN=Roland S-330 RPN
+Patch[*]=Roland S-330 Sampler

@@ -1,0 +1,1183 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland SR-JV80-12 Hip Hop Expansion Board
+;
+; Patches: 256
+; Menus:   12
+; Rhythms: 8
+;
+; Portions provided by Benjamin Tubb
+;
+; Li'l Chips Systems - 1.0d Nov 11 2000
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+;
+; 1.0c - Mar 15 2000
+; 1.0d - Nov 11 2000 fix typo on Rhythm Sets
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland SR-JV80-12 HipHop 001-128]
+0=Hop:001 88:Phat Boyz
+1=Hop:002 89:Saxy Hit
+2=Hop:003 95:Scream!
+3=Hop:004 92:Jazzman
+4=Hop:005 101:TripRide
+5=Hop:006 91:Hop Chop
+6=Hop:007 107:MCnDaHse
+7=Hop:008 123:ColdBuzz
+8=Hop:009 98:Moovin'
+9=Hop:010 95:PhuzzPhat
+10=Hop:011 89:Space Dub
+11=Hop:012 76:DogCatchr
+12=Hop:013 103:Ol'SciFi
+13=Hop:014 61:Crawl'n
+14=Hop:015 74:Mystery
+15=Hop:016 138:Kingston
+16=Hop:017 75:Slicer PB
+17=Hop:018 76:Trip Bump
+18=Hop:019 78:Bacon
+19=Hop:020 73:Back Seat
+20=Hop:021 78:SloMo Grv
+21=Hop:022 80:Squash
+22=Hop:023 80:WahHoo
+23=Hop:024 81:Ringn Kit
+24=Hop:025 81:Wicked
+25=Hop:026 83:HipHpDJ
+26=Hop:027 83:Kick It
+27=Hop:028 83:Vintage 1
+28=Hop:029 85:Slammin
+29=Hop:030 85:Homie
+30=Hop:031 86:Street Bt
+31=Hop:032 82:Urban 2
+32=Hop:033 88:Rastatube
+33=Hop:034 88:HH LoFi
+34=Hop:035 88:Yo!
+35=Hop:036 88:Pumpin'
+36=Hop:037 88:WiddimWet
+37=Hop:038 88:VoxMachin
+38=Hop:039 88:HmBeatBox
+39=Hop:040 88:Blow Hard
+40=Hop:041 88:WaterKing
+41=Hop:042 89:FunkyYeh
+42=Hop:043 89:Funky #&!
+43=Hop:044 89:SnakySplt
+44=Hop:045 90:Dirty Lp
+45=Hop:046 90:Swingin'
+46=Hop:047 90:Projects
+47=Hop:048 90:Toy LP
+48=Hop:049 90:Effectn'
+49=Hop:050 91:Bender
+50=Hop:051 91:Da Dope!
+51=Hop:052 91:BigBeauty
+52=Hop:053 96:Vintage 2
+53=Hop:054 98:Clubbin'
+54=Hop:055 92:StreetRok
+55=Hop:056 92:Boom Town
+56=Hop:057 92:Wash&Wax
+57=Hop:058 92:Ya Mon
+58=Hop:059 95:Head Bobn
+59=Hop:060 95:Pure Phat
+60=Hop:061 98:Box Beat
+61=Hop:062 98:InsectKng
+62=Hop:063 95:Fractured
+63=Hop:064 95:Go!
+64=Hop:065 96:FunkyBnd
+65=Hop:066 96:Sub-Loop
+66=Hop:067 100:RazrMaid
+67=Hop:068 100:Club Mix
+68=Hop:069 98:Wiggler
+69=Hop:070 104:Respect
+70=Hop:071 108:Gargle
+71=Hop:072 80:Shout Out
+72=Hop:073 134:Come On
+73=Hop:074 136:Echo Mix
+74=Hop:075 150:Ohyea
+75=Hop:076 166:JnglCruz
+76=Hop:077 172:Get Busy
+77=Hop:078 61:Slippery
+78=Hop:079 61:DopedMetl
+79=Hop:080 78:Thin Lead
+80=Hop:081 80:HseShffle
+81=Hop:082 90:LP Piano
+82=Hop:083 88:HoppyJazz
+83=Hop:084 88:AftrHours
+84=Hop:085 89:AlienLoop
+85=Hop:086 90:Gringely
+86=Hop:087 90:The Fedz
+87=Hop:088 90:CatsnMice
+88=Hop:089 92:SlapySlop
+89=Hop:090 92:FourHands
+90=Hop:091 92:Skreem It
+91=Hop:092 98:Play W/Me
+92=Hop:093 98:SawBells
+93=Hop:094 85:BumpnNite
+94=Hop:095 Loops Menu 1
+95=Hop:096 Loops Menu 2
+96=Hop:097 Juno Bass 1
+97=Hop:098 Juno Bass 2
+98=Hop:099 Juno Bass 3
+99=Hop:100 Squarz Bass
+100=Hop:101 Da Juno Bass
+101=Hop:102 Juno Bass 4
+102=Hop:103 Sub Bass 2
+103=Hop:104 PhazSub Bass
+104=Hop:105 Arrpy Bass
+105=Hop:106 Growl Bass
+106=Hop:107 Tick Bass 2
+107=Hop:108 Multi Bass 2
+108=Hop:109 Plop Bass
+109=Hop:110 Low Bass
+110=Hop:111 PulsenSub
+111=Hop:112 Whappy Bass
+112=Hop:113 LoPulse Bass
+113=Hop:114 JX Bass
+114=Hop:115 Incarcerated
+115=Hop:116 Twist Bass
+116=Hop:117 808Kick Bass
+117=Hop:118 Bomd Bass
+118=Hop:119 DBass/Lead
+119=Hop:120 Saw Mill
+120=Hop:121 Lo-Fi A.Bass
+121=Hop:122 Hiphop EP 1
+122=Hop:123 Hiphop EP 2
+123=Hop:124 Soft Rhodes2
+124=Hop:125 MellowTrem
+125=Hop:126 Echo Rhodes1
+126=Hop:127 Echo Rhodes2
+127=Hop:128 StackRhodes2
+
+[Roland SR-JV80-12 HipHop 129-256]
+0=Hop:129 Rotary Rhode
+1=Hop:130 Sweet Rhodes
+2=Hop:131 Hard Rhodes2
+3=Hop:132 Wawa EPiano
+4=Hop:133 Shifter EP
+5=Hop:134 My Duck
+6=Hop:135 Comp Piano
+7=Hop:136 Happy Piano
+8=Hop:137 Bad Piano
+9=Hop:138 Roto B
+10=Hop:139 Old Organ 2
+11=Hop:140 Acid D'Organ
+12=Hop:141 Spinning ORG
+13=Hop:142 Buzz Organ
+14=Hop:143 Duck Clav
+15=Hop:144 Mu-Klav
+16=Hop:145 Juno Melody
+17=Hop:146 Weez Synkomp
+18=Hop:147 Doe P. Synth
+19=Hop:148 Cheap Syncom
+20=Hop:149 JUNO Keys
+21=Hop:150 CheepnSquare
+22=Hop:151 Arrpy Synth
+23=Hop:152 JUNO Pluck
+24=Hop:153 R&B Pluck
+25=Hop:154 Dink Melodie
+26=Hop:155 Juno ChoBell
+27=Hop:156 Analog Bells
+28=Hop:157 RadioSymphny
+29=Hop:158 Silky Synthy
+30=Hop:159 JUNOStrings2
+31=Hop:160 SoftStrings2
+32=Hop:161 HorrorString
+33=Hop:162 JU&JP Phase
+34=Hop:163 Juno X
+35=Hop:164 PulsingPhase
+36=Hop:165 Slidin' Bye
+37=Hop:166 Bad Girls
+38=Hop:167 Dummy
+39=Hop:168 Shimmering
+40=Hop:169 40's Chord
+41=Hop:170 30's Tpt
+42=Hop:171 Brass Boyz
+43=Hop:172 Dist Brass
+44=Hop:173 30's BrsFall
+45=Hop:174 Freakout Sax
+46=Hop:175 4Way SaxHits
+47=Hop:176 Lo-Fi Hits
+48=Hop:177 Brass 4 You!
+49=Hop:178 Hit Menu
+50=Hop:179 da Alarm
+51=Hop:180 Ray-gun
+52=Hop:181 Scientist
+53=Hop:182 DJ stuff
+54=Hop:183 Skratchy
+55=Hop:184 Cwisp 4 Toot
+56=Hop:185 Eerie Hits
+57=Hop:186 MarchingBand
+58=Hop:187 Spooky Hits
+59=Hop:188 Old Fool
+60=Hop:189 Velo Hit
+61=Hop:190 Killer Bees
+62=Hop:191 Voice Menu
+63=Hop:192 DJ Voc
+64=Hop:193 1234 x4
+65=Hop:194 Big Mouths!
+66=Hop:195 Funky Voxzy
+67=Hop:196 Baby...?
+68=Hop:197 Good eve...?
+69=Hop:198 SubtleAccnts
+70=Hop:199 Dust Bunnies
+71=Hop:200 Gtr Fx Menu
+72=Hop:201 SquelchCry
+73=Hop:202 Dual Crunchy
+74=Hop:203 Chunky Split
+75=Hop:204 Power 2000
+76=Hop:205 Dist-A-Vox
+77=Hop:206 Smooth Strat
+78=Hop:207 WahWahMelo
+79=Hop:208 Solo Sine
+80=Hop:209 Sat.Nite Ld
+81=Hop:210 Lo Budg ld
+82=Hop:211 JUNO Soft Ld
+83=Hop:212 SH-2000 2
+84=Hop:213 JU Reso Ld 1
+85=Hop:214 JU Reso Ld 2
+86=Hop:215 Synfunk Lead
+87=Hop:216 Hard Hat
+88=Hop:217 Sus Harmons
+89=Hop:218 Flying 5th
+90=Hop:219 CheapRomance
+91=Hop:220 BudgetSynfny
+92=Hop:221 Spellcaster
+93=Hop:222 Traf
+94=Hop:223 CrazyBaby
+95=Hop:224 HOP Haunting
+96=Hop:225 Roarn Tibet
+97=Hop:226 Mr.Underhill
+98=Hop:227 PyrmidBuildr
+99=Hop:228 Wippa Snappa
+100=Hop:229 Funky Santa
+101=Hop:230 Breathalizer
+102=Hop:231 Toy Chest
+103=Hop:232 Radio Break
+104=Hop:233 Glass Tracks
+105=Hop:234 Bad Boys
+106=Hop:235 The Heist
+107=Hop:236 Bristol 1
+108=Hop:237 Bristol 2
+109=Hop:238 Evil Storm
+110=Hop:239 Lunar Surf
+111=Hop:240 Dogs Of Doom
+112=Hop:241 Cat Song
+113=Hop:242 Short Waves
+114=Hop:243 Sleepers
+115=Hop:244 SpacePeepers
+116=Hop:245 EarlyEvening
+117=Hop:246 Radioactive
+118=Hop:247 Lift Off!
+119=Hop:248 Swamp World
+120=Hop:249 ScrapDrumKit
+121=Hop:250 Kick Menu
+122=Hop:251 Snare Menu 1
+123=Hop:252 Snare Menu 2
+124=Hop:253 Rim&Clp Menu
+125=Hop:254 HH&Cym Menu
+126=Hop:255 Tom Menu
+127=Hop:256 Perc. Menu
+
+[Roland SR-JV80-12 HipHop Rhythm 001-008]
+0=Hop:01 Hip-Hop 1
+1=Hop:02 Hip-Hop 2
+2=Hop:03 Hip-Hop 3
+3=Hop:04 FunkAcidJazz
+4=Hop:05 Reggae
+5=Hop:06 Lo-Fi & Voc
+6=Hop:07 TR-808
+7=Hop:08 Electric
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+;Rhythm Sets
+
+[Roland SR-JV80-12 Rhythm:01 Hip-Hop 1]
+35=TR808 KickLp
+36=Slamn'Kick 2
+37=Sizzle Rim
+38=Slamn' Snr
+39=Funk Clap
+40=Whack Snr 2
+41=TR808 Tom
+42=Garbage Hat
+43=TR808 Tom
+44=Garbage Hat
+45=TR808 Tom
+46=HipHopMedHat
+47=TR808 Tom
+48=TR808 Tom
+49=Ragga Crash
+50=TR808 Tom
+51=Lo-Fi Ride
+52=TR909 Cymbal
+53=TR808 Cymbal
+54=Tamb.Short 2
+55=TR909 Cymbal
+56=Tamb.Long 2
+57=CR78 Tamb 2
+58=TR808 Cowbel
+59=TR909 OpHat
+60=Record Noiz
+61=Jingle Bell
+62=Perc. MENU
+63=Funky Tri
+64=Perc. MENU
+65=Perc. MENU
+66=TR727Quijada
+67=Break Kick
+68=Toy Gun 2
+69=Funky Kick
+70=Sci-Fi 2
+71=Slamn'Kick 1
+72=Too Big Kick
+72=Bright Rim
+74=TooBig Snr
+75=Cracked
+76=HipHopJazzySnr
+77=HiHop Snr 3
+78=Ninja Hat
+79=TightBoomSnr
+80=Ninja Hat
+81=Cruis'n Snr
+82=HipHopMedHat
+83=Overring Snr
+84=1,2,3,4
+85=Go!
+86=1,2,3,4
+87=Stop!
+88=1,2,3,4
+89=1,2,3,4
+90=Funky!
+91=Come on!
+92=Good Eve
+93=Yeah!
+94=TR808 Snr 6
+95=TR808 KickLp
+96=Plastic Kick
+97=TR727Quijada
+98=Perc. MENU
+
+[Roland SR-JV80-12 Rhythm:02 Hip-Hop 2]
+35=TR808 KickLp
+36=PurePhatKick
+37=TR808 Rim 2
+38=PurePhat Snr
+39=MC Clap
+40=Whack Snr 2
+41=TR909 Tom
+42=Overlord
+43=TR909 Tom
+44=Overlord
+45=TR909 Tom
+46=HipHopMedHat
+47=TR909 Tom
+48=TR909 Tom
+49=Ragga Crash
+50=TR909 Tom
+51=Lo-Fi Ride
+52=TR909 Cymbal
+53=TR808 Cymbal
+54=Tamb.Short 2
+55=TR909 Cymbal
+56=Tamb. Long 2
+57=CR78 Tamb 2
+58=TR808 Cowbell
+59=TR909 OpHat
+60=Record Noize
+61=Electro Tom
+62=Perc. MENU
+63=Jingle Bell
+64=Perc. MENU
+65=Perc. MENU
+66=TR606 Tom 2
+67=Boom Kick
+68=P5 Noize 3
+69=FarNear Kick
+70=JUNO Blip 1
+71=Dance Kick 4
+72=Thump Kick
+72=Ragga Rim 1
+74=Sizzle Snr
+75=TR909 Clap 2
+76=Big Snare
+77=Dance Snr 2
+78=Lil' Hat
+79=Break Snr
+80=Lil' Hat
+81=Real Snare
+82=Junk Hat
+83=TR808 Snr 7
+84=Smear Hit 1
+85=BD Scratch
+86=Smear Hit 2
+87=BD Scratch
+88=LoFi MinorHt
+89=BrassVox Hit
+90=Tape Stop 2
+91=Brass Hit Lp
+92=Brass Hit Lp
+93=Mean Brs Hit
+94=TR808 Snr 6
+95=TR808 KickLp
+96=ElectricKick
+97=TR727 Quijada
+98=Perc. MENU
+
+[Roland SR-JV80-12 Rhythm:03 Hip-Hop 3]
+35=Hip Kick
+36=TR808 Kick 3
+37=Real Rim
+38=Hi Snare
+39=HipHop Clap
+40=Cut Hats Snr
+41=Verb Tom Lo
+42=Lil' Hat
+43=Verb Tom Lo
+44=Overlord
+45=Verb Tom Lo
+46=Rock OpHat
+47=Verb Tom Hi
+48=Verb Tom Hi
+49=Ragga Crash
+50=Verb Tom Hi
+51=Lo-Fi Ride
+52=TR909 Cymbal
+53=Ride Bell 1
+54=Tamb. Long 2
+55=TR909 Cymbal
+56=Cowbell 1
+57=China Cym
+58=TR808 Cowbel
+59=Ride 1
+60=Bong Hi
+61=Bongo Lo
+62=Cga Mute Hi
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Funky Tri
+68=Funki Tri
+69=Cabasa Up
+70=Cabasa Cut
+71=TR707 Kick 3
+72=Boom Kick
+72=Real Rim
+74=R&B Snare
+75=MC Clap
+76=Sizzle Snr
+77=TR808 Tom
+78=Lil' Hat
+79=TR808 Tom
+80=Garbage Hat
+81=TR808 Tom
+82=HipHopMedHat
+83=BD Scratch
+84=BD Scratch
+85=SD Scratch
+86=SD Scratch
+87=BasicScratch
+88=Funky JUNO
+89=Record Noiz
+90=Perc. MENU
+91=Cuica Hit
+92=Say Yeah!
+93=Scream!
+94=PurePhatKick
+95=Sizzle Snr
+96=Overring Snr
+97=92:Jazzman
+98=90:NoizyBoys
+
+[Roland SR-JV80-12 Rhythm:04 FunkAcidJazz]
+35=Slamin'Kick 2
+36=FarNear Kick
+37=Side Stick
+38=Whack Snr 2
+39=Funk Clap
+40=HpHpJazzySnr
+41=TR909 Tom
+42=Real Hat
+43=TR909 Tom
+44=Pedal HiHat
+45=TR909 Tom
+46=Op HiHat
+47=TR909 Tom
+48=TR909 Tom
+49=TR909 Cymbal
+50=TR909 Tom
+51=Lo-Fi Ride
+52=Ragga Crash
+53=Ride Bell 1
+54=CR78 Tamb 2
+55=TR909 Cymbal
+56=Jingle Bell
+57=Belltree
+58=TR808 Cowbell
+59=Ride 1
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Mute Hi
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Funky Tri
+68=Funky Tri
+69=TR727Quijada
+70=TR808Claves2
+71=Funky Kick
+72=Hall Kick 2
+72=Lo-Fi Rim
+74=Big Snare
+75=HipHop Clap
+76=HipHop Snr 4
+77=Electro Tom
+78=Overlord
+79=Electro Tom
+80=Junk Hat
+81=Elecrtro Tom
+82=HipHopMedHat
+83=BD Scratch
+84=SD Scratch
+85=Scratch Loop
+86=Wah Gtr B
+87=BasicScratch
+88=Tape Stop 2
+89=Record Noiz
+90=Singing Ahh
+91=Come on!
+92=Say Yeah!
+93=Yeah!
+94=Ninja Kick
+95=Sizzle Snr
+96=DistortedSnr
+97=86:Bubbles
+98=98:Funkster2
+
+[Roland SR-JV80-12 Rhythm:05 Reggae]
+35=Hall Kick 1
+36=Hall Kick 2
+37=JUNO Blip 1
+38=DanceHallSnr
+39=HipHop Clap
+40=HipHop Snr 4
+41=Electro Tom
+42=Lil' Hat
+43=Electro Tom
+44=Ninjas Hat
+45=Electro Tom
+46=HipHopMedHat
+47=Electro Tom
+48=Electro Tom
+49=Ragga Crash
+50=Electro Tom
+51=Lo-Fi Ride
+52=Ragga Crash
+53=China Cym
+54=Tamb.Short 2
+55=TR909 Cymbal
+56=Cowbell 1
+57=TR808 Cymbal
+58=TR808 Cymbal
+59=Ride 1
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Mute Hi
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Funky Tri
+68=Funky Tri
+69=Cabasa Up
+70=Cabasa Cut
+71=TR808 Kick 3
+72=Lo-Fi Kick
+72=Ragga Rim 2
+74=Hi Snare
+75=Crackhed
+76=Break Snr
+77=TR808 Tom
+78=Lil' Hat
+79=TR808 Tom
+80=Garbage Hat
+81=TR808 Tom
+82=TR909 OpHat
+83=JUNO Blip 2
+84=Wah Gtr A
+85=ClassicHseHt
+86=Wah Gtr Lp 2
+87=Dirty Laugh
+88=Cuica Hit
+89=GeigerCountr
+90=Toy Gun 1
+91=Toy Gun 2
+92=Hip Hop Ride
+93=Sax Blast Lp
+94=TR808 KickLp
+95=Ragga Snr 3
+96=Dance Snr 2
+97=104:Riddim
+98=94:Ya Mon
+
+[Roland SR-JV80-12 Rhythm:06 Lo-Fi & Voc]
+35=Funky Kick
+36=Too Big Kick
+37=Bright Rim
+38=Overring Snr
+39=MC Clap
+40=TooBig Snr
+41=Garbage Tom
+42=Ninja Hat
+43=Garbage Tom
+44=Garbage Hat
+45=Garbage Tom
+46=HiphopMedHat
+47=Garbage Tom
+48=Garbage Tom
+49=TR808 Cymbal
+50=Garbage Tom
+51=Lo-Fi Ride
+52=TR808 Cymbal
+53=Hip Hop Ride
+54=Tamb. Long 2
+55=TR808 Cymbal
+56=CR78 Tamb 2
+57=Ragga Crash
+58=TR808 Cowbel
+59=Ride 1
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Mute Hi
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Funky Tri
+68=Funky Tri
+69=Cabasa Up
+70=Cabasa Cut
+71=BeatBox Kick
+72=BeatBox Kick
+72=BeatBox Rim
+74=BeatBox Snr2
+75=BeatBox Perc
+76=BeatBox Snr1
+77=BeatBox Kik2
+78=B.Box Shaker
+79=BeatBox Kik2
+80=Chiki!
+81=BeatBox Kik2
+82=B.Box OpHat
+83=Ahhhhhh
+84=BeatBox Hat
+85=Canvas Laugh
+86=Breath Hit
+87=Singing Ahh
+88=Sceam!
+89=Female Laugh
+90=BrassVox Hit
+91=LoFi MinorHt
+92=Mean Brs Hit
+93=Sax Blast
+94=Hall Kick 1
+95=Big Snare
+96=Cruis'n Snr
+97=85:Snr Wall
+98=83:HmBeatBx1
+
+[Roland SR-JV80-12 Rhythm:07 TR-808]
+35=TR808 KickLp
+36=TR808 KickLp
+37=TR808 Rim 2
+38=TR808 Snr 7
+39=808 Claps
+40=TR606 Snr 4
+41=TR808 Tom
+42=Lil' Hat
+43=TR808 Tom
+44=Junk Hat
+45=TR808 Tom
+46=HipHopMedHat
+47=TR808 Tom
+48=TR808 Tom
+49=TR808 Cymbal
+50=TR808 Tom
+51=Ragga Crash
+52=TR909 Cymbal
+53=LoFi Ride
+54=Tamb. Long 2
+55=TR909 Cymbal
+56=TR808 Cowbell
+57=Rock OpHat
+58=TR727Quijada
+59=Ride 1
+60=TR808 Tom
+61=TR808 Tom
+62=TR808Claves2
+63=TR808Claves2
+64=TR808Claves2
+65=Sax Blast Lp
+66=Funky Tri
+67=Funky Tri
+68=Cabasa Up
+69=Cabasa Down
+70=Cabasa Cut
+71=TR808 Kick 3
+72=TR808 Kick 3
+73=Sizzle Rim
+74=TR808 Snr 5
+75=TR909 Clap 2
+76=TR808 Snr 6
+77=TR606 Tom 2
+78=606 HiHat Cl
+79=TR606 Tom 2
+80=Cl HiHat 2
+81=TR606 Tom 2
+82=606 HiHat Op
+83=JUNO Blip 2
+84=JUNO Blip 1
+85=Sax Blast Lp
+86=Bauw Hit
+87=Slice of Trp
+88=Tekno Hit
+89=GeigerCountr
+90=EFX Tom Lp
+91=BeatBox Kick
+92=Tape Stop 2
+93=Brass hit Lp
+94=TR707 Kick 3
+95=Electro Snr
+96=Echo Snare
+97=80:Thump Grv
+98=61:Slow Grv
+
+[Roland SR-JV80-12 Rhythm:08 Electric]
+35=Plastic Kick
+36=ElectricKick
+37=Lo-Fi Rim
+38=DanceHallSnr
+39=TR909 Clap 2
+40=DR Disco Snr
+41=TR909 Tom
+42=Junk Hat
+43=TR909 Tom
+44=TR909 OpHat
+45=TR909 Tom
+46=TR909 OpHat
+47=TR909 Tom
+48=TR909 Tom
+49=TR909 Cymbal
+50=TR909 Tom
+51=Lo-Fi Ride
+52=TR909 Cymbal
+53=TR808 Cymbal
+54=Tamb.Short 2
+55=Crash 1
+56=TR808 Cowbel
+57=Ragga Crash
+58=Funky Tri
+59=Lo-Fi Ride
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Open Hi
+63=Cga Mute Hi
+64=Cga Open Lo
+65=TR808 Claves2
+66=Wind Agogo
+67=TR808 Cowbel
+68=TR808 Cowbel
+69=TR727Quijada
+70=TR727Quijada
+71=ElectricKick
+72=Jungle Kick
+73=TR808 Rim 2
+74=Electro Snr
+75=Funk Clap
+76=Echo Snare
+77=Electro Tom
+78=606 HiHat Cl
+79=Electro Tom
+80=Cl HiHat 1
+81=Electro Tom
+82=606 HiHat Op
+83=JUNO Blip 1
+84=JUNO Blip 2
+85=Sax Blast Lp
+86=ClassicHseht
+87=Sci-Fi 2
+88=Perc. MENU
+89=HipHop Alarm
+90=Slice of Trp
+91=P.Phatt Hit
+92=Rattle Hit
+93=Hip Hop Ride
+94=Dance Kick 4
+95=Sizzle Snr
+96=Real Snare
+97=76:TrpHpKikn
+98=95:Pure Phat
+
+
+; Menu Patches
+
+; waveform 001 and 002
+[Roland SR-JV80-12 Menu:095 Loops Menu 1]
+36=61:Slow Grv
+38=75:BoomRvBel
+40=76:TrpHpKikn
+41=78:NinjaBrek
+43=80:Thump Grv
+45=80:MetalHead
+47=81:Ringn Kit
+48=83:Big & Bad
+50=83:HmBeatBx1
+52=83:Pong Snr
+53=85:Homie
+55=85:Snr Wall
+57=83:Street 16
+59=86:Bubbles
+60=88:TrenchTwn
+62=88:Cut Hats
+64=88:Yo!
+65=88:Crackl'n
+67=88:HmBeatBx2
+69=89:BuzyFunky
+71=89:Slamn'Grv
+72=90:Swingn
+74=90:NoizyBoys 
+76=90:Swingdirt
+77=91:NotopHpHp
+79=91:Cruis'n
+81=91:Uptown
+82=91:BigBeauty
+84=92:Jazzman
+86=92:Overring
+
+; waveform 003
+[Roland SR-JV80-12 Menu:096 Loops Menu 2]
+60=92:Boom Town
+62=92:Too Big
+64=94:Ya Mon
+65=95:Head Bobn
+67=95:Pure Phat
+69=96:PlainJane
+71=96:Jane 2
+72=98:Funkster1
+74=98:Funkster2
+76=104:BigBottm
+77=104:Respect
+79=104:Riddim
+81=108:Gargle
+
+; waveform 073 and 074
+[Roland SR-JV80-12 Menu:178 Hit Menu]
+48=Brass Fall 2
+50=Smear Hit 1
+52=Smear Hit 2
+53=LoFi MinorHt
+55=BrassVox Hit
+57=Brass Hit Lp
+59=Mean Brs Hit
+60=Sax Lick 1
+62=Sax Lick 2
+64=Sax Cry
+65=Sax Blast
+67=HipHop Alarm
+69=Cuica Hit
+71=Breath Hit
+73=Bauw Hit
+74=ClassicHseHt
+75=JUNO Blip 1
+77=JUNO Blip 2
+79=Sci-Fi 2
+80=Slice of Trp
+82=Rattle Hit
+84=P.Phatt Hit
+85=BD Scratch
+87=SD Scratch
+89=Tape Stop 2
+91=BasicScratch
+92=ScratchLoop
+94=Record Noiz
+
+; waveform 111 112 and 113
+[Roland SR-JV80-12 Menu:191 Voice Menu]
+36=Kick it!
+38=Come on!
+40=Funky!
+41=Crazy!
+43=DJ!
+45=Go!
+47=Stop!
+48=Good Eve
+50=Yeah!
+52=Dirty Laugh
+53=Female Laugh
+55=Ow!
+57=Pretty Aou!
+59=Singing Ahh
+60=Oh Yeah!
+62=Hoo!
+64=Say Yeah!
+65=Scream!
+67=Baby!
+69=Get on Up
+71=MC!
+72=Give it Up
+74=Canvas Laugh
+76=BeatBox Kick
+77=BeatBox Hat
+79=BeatBox Snr1
+81=BeatBox Snr2
+83=BeatBox Rim
+84=BeatBox Kik2
+86=BeatBox Perc
+88=B.Box Shaker
+89=Chiki!
+91=Ahhhhhh
+93=B.Box OpHat
+
+; waveform 065
+[Roland SR-JV80-12 Menu:200 Gtr Fx Menu]
+60=Wah Gtr 2a
+62=Wah Gtr 2b
+64=Wah Gtr 2c
+65=Wah Gtr 2d
+67=Wah Gtr Lp 1
+69=Wah Gtr Lp 2
+71=Wah GtrLp2 a
+72=Wah GtrLp2 b
+74=Wah GtrLp2 c
+76=Wah GtrLp2 d
+77=Wah Gtr A
+79=Wah Gtr B
+81=D.GtrUpwhine
+83=Gtr. Thumper
+
+; waveform 149 and 150
+[Roland SR-JV80-12 Menu:250 Kick Menu]
+48=Jungle Kick
+50=Hip Kick
+52=Ninja Kick
+53=Break Kick
+55=Funky Kick
+57=Slamn'Kick 1
+59=Too Big Kick
+60=Boom Kick
+62=FarNear Kick
+64=Slamn'Kick 2
+65=Hall Kick 1
+67=Dance Kick 4
+69=Thump Kick
+71=PurePhatKick
+72=Hall Kick 2
+74=Plastic Kick
+76=ElectricKick
+77=TR808 Kick 1
+79=TR808 KickLp
+81=TR707 Kick 3
+83=Lo-Fi Kick
+84=Hybrid Kick
+86=Rock Rim BD
+
+; waveform 172 and 173
+[Roland SR-JV80-12 Menu:251 Snare Menu 1]
+36=HpHpJazzySnr
+38=Rock Rim Snr
+40=DR Snare 1
+41=DR Snare 2
+43=RealJazz Snr
+45=R&B Snare 2
+47=Ragga Snr 3
+48=HipHop Snr 3
+50=TightBoomSnr
+52=Slamn' Snr
+53=PurePhat Snr
+55=R&B Snare
+57=Hi Snare
+59=DR Disco Snr
+60=Cruis'n Snr
+62=Overring Snr
+64=Cut Hats Snr
+65=Scrap Snr
+67=Machine Snr
+69=DanceHallSnr
+71=Dance Snr 1
+72=Big Snare
+74=Flat Snare
+76=HipHop Snr 4
+77=DistortedSnr
+79=Dance Snr 2
+81=Sizzle Snr
+83=Break Snr
+84=Whack Snr
+86=Real Snare
+88=Hi Snare 2
+
+; waveform 174
+[Roland SR-JV80-12 Menu:252 Snare Menu 2]
+60=TR808 Snr 5
+62=TR808 Snr 6
+64=TR808 Snr 7
+65=TR606 Snr 4
+67=Electro Snr
+69=Echo Snr
+71=Too Big Snr
+
+; waveform 210 and 211
+[Roland SR-JV80-12 Menu:253 Rim&Clp Menu]
+60=Bright Rim
+62=Ragga Rim 1
+64=TR808 Rim 2
+65=Ragga Rim 2
+67=Lo-Fi Rim
+69=Sizzle Rim
+71=Real Rim
+72=Funk Clap
+74=HipHop Clap
+76=Crackhed
+77=MC Clap
+79=TR909 Clap 2
+
+; waveform 224
+[Roland SR-JV80-12 Menu:254 HH&Cym Menu]
+60=Overlord
+62=Real Hat
+64=Lil' Hat
+65=Clear Hat
+67=Garbage Hat
+69=Ninja Hat
+71=Junk Hat
+72=Ragga ClHat
+74=Rock OpHat
+76=HipHopMedHat
+77=CR78 Hat
+79=TR909 OpHat
+81=TR909 Cymbal
+83=TR808 Cymbal
+84=Ragga Crash
+86=Lo-Fi Ride
+
+; waveform 240
+[Roland SR-JV80-12 Menu:255 Tom Menu]
+60=TR909 Tom
+62=TR808 Tom
+64=TR606 Tom 2
+65=Electro Tom
+67=Garbage Tom
+
+[Roland SR-JV80-12 Menu:256 Perc. Menu]
+60=TR808Claves2
+62=TR808 Cowbel
+64=Tamb.Short 2
+65=Tamb.Long 2
+67=CR78 Tamb 2
+69=Jingle Bell
+71=Belltree
+72=Funky Tri
+74=Flextone
+76=TR727Quijada
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+; If you manually insert this Instrument Definition into your Master.ins,
+; you must modify the Expansion Slot Bank Numbers below to your Expansion
+; Board configuration.
+;
+; It is easier to Drag the Expansion Board Names within the Cakewalk
+; "Define Instruments and Names" dialog.
+;
+; See the Cakewalk Readme.rtf file or the Li'l Chips SR-JV80 Info page.
+;
+; Number   Slot Bank
+; 10752    A1 (patches 1-128)
+; 10753    A2 (patches 129-255)
+; 10754    B1 (patches 1-128)
+; 10755    B2 (patches 129-255)
+; 10756    C1 (patches 1-128)
+; 10757    C2 (patches 129-255)
+; 10758    D1 (patches 1-128)
+; 10759    D2 (patches 129-255)
+; 10760    E1 (patches 1-128)
+; 10761    E2 (patches 129-255)
+; 10762    F1 (patches 1-128)
+; 10763    F2 (patches 129-255)
+; 10764    G1 (patches 1-128)
+; 10765    G2 (patches 129-255)
+; 10766    H1 (patches 1-128)
+; 10767    H2 (patches 129-255)
+
+; Expansion Board Slot-A
+[Roland SR-JV80-12 HipHop Expansion]
+Patch[10752]=Roland SR-JV80-12 HipHop 001-128
+Patch[10753]=Roland SR-JV80-12 HipHop 129-256
+Key[10752,94]=Roland SR-JV80-12 Menu:095 Loops Menu 1
+Key[10752,95]=Roland SR-JV80-12 Menu:096 Loops Menu 2
+Key[10753,49]=Roland SR-JV80-12 Menu:178 Hit Menu
+Key[10753,62]=Roland SR-JV80-12 Menu:191 Voice Menu
+Key[10753,71]=Roland SR-JV80-12 Menu:200 Gtr Fx Menu
+Key[10753,121]=Roland SR-JV80-12 Menu:250 Kick Menu
+Key[10753,122]=Roland SR-JV80-12 Menu:251 Snare Menu 1
+Key[10753,123]=Roland SR-JV80-12 Menu:252 Snare Menu 2
+Key[10753,124]=Roland SR-JV80-12 Menu:253 Rim&Clp Menu
+Key[10753,125]=Roland SR-JV80-12 Menu:254 HH&Cym Menu
+Key[10753,126]=Roland SR-JV80-12 Menu:255 Tom Menu
+Key[10753,127]=Roland SR-JV80-12 Menu:256 Perc. Menu
+Drum[10752,94]=1
+Drum[10752,95]=1
+Drum[10753,49]=1
+Drum[10753,62]=1
+Drum[10753,71]=1
+Drum[10753,121]=1
+Drum[10753,122]=1
+Drum[10753,123]=1
+Drum[10753,124]=1
+Drum[10753,125]=1
+Drum[10753,126]=1
+Drum[10753,127]=1
+
+[Roland SR-JV80-12 HipHop Rhythm]
+Patch[10752]=Roland SR-JV80-12 HipHop Rhythm 001-008
+Key[10752,0]=Roland SR-JV80-12 Rhythm:01 Hip-Hop 1
+Key[10752,1]=Roland SR-JV80-12 Rhythm:02 Hip-Hop 2
+Key[10752,2]=Roland SR-JV80-12 Rhythm:03 Hip-Hop 3
+Key[10752,3]=Roland SR-JV80-12 Rhythm:04 FunkAcidJazz
+Key[10752,4]=Roland SR-JV80-12 Rhythm:05 Reggae
+Key[10752,5]=Roland SR-JV80-12 Rhythm:06 Lo-Fi & Voc
+Key[10752,6]=Roland SR-JV80-12 Rhythm:07 TR-808
+Key[10752,7]=Roland SR-JV80-12 Rhythm:08 Electric
+Drum[10752,0]=1
+Drum[10752,1]=1
+Drum[10752,2]=1
+Drum[10752,3]=1
+Drum[10752,4]=1
+Drum[10752,5]=1
+Drum[10752,6]=1
+Drum[10752,7]=1

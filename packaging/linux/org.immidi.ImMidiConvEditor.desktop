@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ImMidi Conversion Editor
+GenericName=MIDI Conversion Table Editor
+Comment=Edit the instrument conversion tables of ImMidi and ImMidi Bridge
+Exec=ImMidiConvEditor
+Icon=org.immidi.ImMidiConvEditor
+Terminal=false
+Categories=AudioVideo;Audio;Midi;
+StartupWMClass=ImMidiConvEditor

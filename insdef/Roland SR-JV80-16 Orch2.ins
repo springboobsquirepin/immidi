@@ -1,0 +1,502 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland SR-JV80-16 Orchestra II Expansion Board
+;
+; This is for the JV-1010/1080/2080 XP-30/50/60/80 XV-88/3080/5080
+;
+; Patches: 256
+; Menus:   4 (242, 243, 254, 256)*
+; Rhythms: 2
+;
+; * 243/254/256 are Multi-Tone Patches and not true Menus.
+;
+; Rhythm Note Names provided by Dan Blanchard
+;
+; Li'l Chips Systems - 1.0d August 29 2000
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+;
+; 1.0c = Added Rhythm Note Names
+;        Shortened rhythm set patch names for better cakewalk display
+; 1.0d = Fixed bad Patch and Note Names
+;        Added Menu Set Note Names
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland SR-JV80-16 Orchestral II 001-128]
+0=Orc2:001 StStrOrc p/f
+1=Orc2:002 StrSwell/Mod
+2=Orc2:003 Emotionale
+3=Orc2:004 Dynamic Str
+4=Orc2:005 Str DownBow
+5=Orc2:006 Adagio Str
+6=Orc2:007 Dyna Marc
+7=Orc2:008 FourSeasons2
+8=Orc2:009 StrOrch /Vel
+9=Orc2:010 StrOrch p/f
+10=Orc2:011 StatelyBrite
+11=Orc2:012 RichSymphony
+12=Orc2:013 St.StrOrch p
+13=Orc2:014 St.StrOrch f
+14=Orc2:015 RichSrings2
+15=Orc2:016 FullStrings2
+16=Orc2:017 MedStr Sect
+17=Orc2:018 DynamicRosin
+18=Orc2:019 101 Violins
+19=Orc2:020 Natural Str
+20=Orc2:021 Fast Strings
+21=Orc2:022 Fat Marcato
+22=Orc2:023 StrAtk 2
+23=Orc2:024 DecayStrings
+24=Orc2:025 Piano Str
+25=Orc2:026 PyanniString
+26=Orc2:027 Pno/Hrp Str
+27=Orc2:028 Quartet
+28=Orc2:029 Solo&Acomp
+29=Orc2:030 Vln&Vcl
+30=Orc2:031 Chamber Str
+31=Orc2:032 St.Cellos
+32=Orc2:033 String Duet
+33=Orc2:034 Vln&Vla Atk
+34=Orc2:035 Stratovolo
+35=Orc2:036 Vienna Solo
+36=Orc2:037 AlternativeBow
+37=Orc2:038 TronStrings2
+38=Orc2:039 Tape Orchest
+39=Orc2:040 Reverse Str
+40=Orc2:041 SoloViolin 1
+41=Orc2:042 SoloViolin 2
+42=Orc2:043 Fiddle Spicc
+43=Orc2:044 FdlGliss Vsw
+44=Orc2:045 BariolageVln
+45=Orc2:046 SadSolo Vln
+46=Orc2:047 Chorus Vln 2
+47=Orc2:048 Stereo Vln 2
+48=Orc2:049 Agitato Vln2
+49=Orc2:050 Solo Cello
+50=Orc2:051 Dry Cello
+51=Orc2:052 Solo Vc3
+52=Orc2:053 ChorusCello2
+53=Orc2:054 Strngs&Horns
+54=Orc2:055 FullOrchest2
+55=Orc2:056 FilmOrchst p
+56=Orc2:057 FilmOrchst m
+57=Orc2:058 St.Orch Uni
+58=Orc2:059 Horns/String
+59=Orc2:060 Woody Orch
+60=Orc2:061 Orch Ens
+61=Orc2:062 Orch Unif
+62=Orc2:063 Orch Brass 1
+63=Orc2:064 Orch Brass 2
+64=Orc2:065 GRAND Orch
+65=Orc2:066 Last Noel
+66=Orc2:067 Celtic Ensbl
+67=Orc2:068 Harp & Flute
+68=Orc2:069 Celesta&Flt
+69=Orc2:070 Prokofiev
+70=Orc2:071 Mass In Cee
+71=Orc2:072 St.OrchBrass
+72=Orc2:073 Dyn HornSect
+73=Orc2:074 FrenchyHornz
+74=Orc2:075 Simple Hornz
+75=Orc2:076 Large Horns
+76=Orc2:077 Fr.Horn p>f
+77=Orc2:078 Fr.Horn sfz2
+78=Orc2:079 2xFr.Horns
+79=Orc2:080 Uni Hrns Duo
+80=Orc2:081 Swell-brass
+81=Orc2:082 Solo Fr.Hrn1
+82=Orc2:083 Solo Fr.Hrn2
+83=Orc2:084 Medieval OYA
+84=Orc2:085 Orch Horns
+85=Orc2:086 Brass Ens 9
+86=Orc2:087 BrassAttack2
+87=Orc2:088 Full Brass 1
+88=Orc2:089 Full Brass 2
+89=Orc2:090 Horn Accomp
+90=Orc2:091 Mood Brass
+91=Orc2:092 Trumpet Ens
+92=Orc2:093 3 Trumpets2
+93=Orc2:094 Centurions
+94=Orc2:095 Real Trumpet
+95=Orc2:096 Jazz Trumpet
+96=Orc2:097 Trumpet 4
+97=Orc2:098 Trumpet 5
+98=Orc2:099 El Bono
+99=Orc2:100 Solo Tb 5
+100=Orc2:101 Solo Tb 6
+101=Orc2:102 Solo Tb 7
+102=Orc2:103 Trombone atm
+103=Orc2:104 ConcertFlute
+104=Orc2:105 Flute 2
+105=Orc2:106 Flute 3
+106=Orc2:107 Flute 4
+107=Orc2:108 AmbientFlute
+108=Orc2:109 Jig Flute
+109=Orc2:110 Piccolo 2
+110=Orc2:111 Piccolo 3
+111=Orc2:112 PiccoloFlt 2
+112=Orc2:113 Dyno Celt
+113=Orc2:114 CelticFlt 1
+114=Orc2:115 CelticFlt 2
+115=Orc2:116 Celt Fl Trio
+116=Orc2:117 TinWhistle 1
+117=Orc2:118 TinWhistle 2
+118=Orc2:119 TinWhistle 3
+119=Orc2:120 Celtic Whisl
+120=Orc2:121 Sinking Duo
+121=Orc2:122 Beret
+122=Orc2:123 Hill&Sheeps1
+123=Orc2:124 Hill&Sheeps2
+124=Orc2:125 HilandChurch
+125=Orc2:126 C PentaPipe
+126=Orc2:127 UilleanPipe
+127=Orc2:128 Celt/Uillean
+
+[Roland SR-JV80-16 Orchestral II 129-256]
+0=Orc2:129 Celt/Fiddle
+1=Orc2:130 Oboe Vsw
+2=Orc2:131 Oboe 6
+3=Orc2:132 Oboe 7
+4=Orc2:133 Clarinet 3
+5=Orc2:134 English Hrn4
+6=Orc2:135 English Hrn5
+7=Orc2:136 Bassoon 3
+8=Orc2:137 Bassoon 4
+9=Orc2:138 Bassoon 5
+10=Orc2:139 Oboe/E.Horn
+11=Orc2:140 DelicateWood
+12=Orc2:141 Oboe/Clari
+13=Orc2:142 Jig Duo
+14=Orc2:143 St.Bousouki
+15=Orc2:144 Bousouki 1
+16=Orc2:145 Bouski/Strum
+17=Orc2:146 Bousouki 2
+18=Orc2:147 Pulcinella
+19=Orc2:148 String'O Fun
+20=Orc2:149 BousoukiDream
+21=Orc2:150 St.Harp
+22=Orc2:151 Harp Vsw
+23=Orc2:152 Clear Harp
+24=Orc2:153 African Harp
+25=Orc2:154 Rich Harp
+26=Orc2:155 Harp 3
+27=Orc2:156 Harp Pf
+28=Orc2:157 MelancolyHrp
+29=Orc2:158 CelticHarp 1
+30=Orc2:159 CelticHarp 2
+31=Orc2:160 Clarsah Harp
+32=Orc2:161 ElectraHarp
+33=Orc2:162 ArpeggiHarp
+34=Orc2:163 Harp Gliss
+35=Orc2:164 St.Cymbalon
+36=Orc2:165 Cymbalon
+37=Orc2:166 Cymbalon Duo
+38=Orc2:167 Bohemian
+39=Orc2:168 Child's Toy                    
+40=Orc2:169 Xmas Piano
+41=Orc2:170 OnReflection
+42=Orc2:171 Harmonium 1
+43=Orc2:172 Harmonium 2
+44=Orc2:173 St.Music Box
+45=Orc2:174 Old Mechanic
+46=Orc2:175 SecretGarden
+47=Orc2:176 Music Box 2
+48=Orc2:177 Victoriana
+49=Orc2:178 Meditation
+50=Orc2:179 TubulaBells3
+51=Orc2:180 TubulaBells4
+52=Orc2:181 TubulaBells5
+53=Orc2:182 ChurchBells4
+54=Orc2:183 BelfryChime2
+55=Orc2:184 ChurchBells5
+56=Orc2:185 HappyXmas!
+57=Orc2:186 Sweet Dreams
+58=Orc2:187 Huge Bells
+59=Orc2:188 Glocken 3
+60=Orc2:189 Mmms & Aaahs
+61=Orc2:190 Pure Voices
+62=Orc2:191 CelticSpirit
+63=Orc2:192 Fem Ahs
+64=Orc2:193 Perc DigiVox
+65=Orc2:194 Fates
+66=Orc2:195 Aah:VelScoop
+67=Orc2:196 Heaven'sVox1
+68=Orc2:197 Heaven'sVox2
+69=Orc2:198 Mmh Vox 1
+70=Orc2:199 Mmms
+71=Orc2:200 Mmh Vox 2
+72=Orc2:201 StChr Mm/Ah 
+73=Orc2:202 Umms & Aahs
+74=Orc2:203 Humming Chrs
+75=Orc2:204 Ether Choir
+76=Orc2:205 SndtrkVoices
+77=Orc2:206 WinterChoir2
+78=Orc2:207 BreathVoices
+79=Orc2:208 Fair...like!
+80=Orc2:209 She Breathes
+81=Orc2:210 Movin'Vowels
+82=Orc2:211 Onya Vox
+83=Orc2:212 Vox Ghost
+84=Orc2:213 Spectral Mmh
+85=Orc2:214 Soft Mover
+86=Orc2:215 Analogue?
+87=Orc2:216 Dark Knight
+88=Orc2:217 XReeds
+89=Orc2:218 C.Harp/pad
+90=Orc2:219 Phaze Strngs
+91=Orc2:220 Phaze Choir
+92=Orc2:221 Dreamsequenz
+93=Orc2:222 Waterworld
+94=Orc2:223 Midnight
+95=Orc2:224 Colombus
+96=Orc2:225 Titan
+97=Orc2:226 Interspace
+98=Orc2:227 Fountains
+99=Orc2:228 SteppedGliss
+100=Orc2:229 Your Mission
+101=Orc2:230 Mondo Hit
+102=Orc2:231 Orch Hit 1
+103=Orc2:232 Big Hit
+104=Orc2:233 Orch Hit 2
+105=Orc2:234 Orch FX
+106=Orc2:235 HorrorHit C4
+107=Orc2:236 Dyna Timps
+108=Orc2:237 Timpani 5
+109=Orc2:238 Dark Drums
+110=Orc2:239 St.Bodhran
+111=Orc2:240 Bodhran Vel
+112=Orc2:241 CrazyBodhran
+113=Orc2:242 Bodhran Menu
+114=Orc2:243 Percussn Mix
+115=Orc2:244 Wind Chimes3
+116=Orc2:245 Jingle Bell
+117=Orc2:246 Finger Cym
+118=Orc2:247 Cym Scrape
+119=Orc2:248 TunedBlock 1
+120=Orc2:249 TunedBlock 2
+121=Orc2:250 TunedBlock 3
+122=Orc2:251 Grongkas
+123=Orc2:252 Orch Snare
+124=Orc2:253 Snr Roll Vsw
+125=Orc2:254 OrchSnr Menu
+126=Orc2:255 Orch BassDrm
+127=Orc2:256 OrchDrm Menu
+
+[Roland SR-JV80-16 Orchestral II Rhythm 001-002]
+0=Orc2:01 Orch Set
+1=Orc2:02 Celtic Set
+
+; ----------------------------------------------------------------------
+
+
+.Note Names
+
+[Roland SR-JV80-16 Rhythm:01 Orch Set]
+35=Orch BD
+36=Orch BD
+37=OrchSNR Roll
+38=Orch SNR
+39=OrchSNR Roll
+40=Orch SNR
+41=Timpani 2 f
+42=Timpani 2 f
+43=Timpani 2 f
+44=Timpani 2 f
+45=Timpani 2 f
+46=Timpani 2 f
+47=Timpani 2 f
+48=Timpani 2 f
+49=Timpani 2 f
+50=Timpani 2 f
+51=Timpani 2 f
+52=Timpani 2 f
+53=Timpani 2 f
+54=Tambourine
+55=Crash 1
+56=Ride 2
+57=Crash 1
+58=Ride 1
+59=MalletCymbal
+60=Timpani 2 p
+61=Timpani 2 p
+62=Timpani 2 f
+63=Timpani 2 f
+64=Timpani Roll
+65=Timbale
+66=Timbale
+67=Agogo
+68=Agogo
+69=Open Triangl
+70=Open Triangl
+71=JingleBell 2
+72=Wind Chime 3
+73=Finger Cym 2
+74=Finger Cym 2
+75=Finger Cym 2
+76=CymbalScrape
+77=TunedBlock A
+78=TunedBlock A
+79=Cowbell 1
+80=Cowbell 1
+81=Tubular 2 A
+82=Wood Block
+83=Grongkas
+84=OrchPrc Hit
+85=Timpani 2 f
+86=White Noise
+87=OrchUnisonRB
+88=Applause
+89=Old Kick
+90=Cl HiHat 1
+91=Round Kick
+92=Pedal HiHat
+93=Ballad SN
+94=Op HiHat
+95=SN Roll
+96=Metronome 2
+97=R8 Click
+98=Metronome 1
+
+[Roland SR-JV80-16 Rhythm:02 Celtic Set]
+35=Bodhran 6
+36=Orch BD
+37=Side Stick
+38=Orch SNR
+39=808 Claps
+40=OrchSNR Roll
+41=Timpani 2 f
+42=Cl HiHat 1
+43=Timpani 2 f
+44=Cl HiHat 2
+45=Timpani 2 f
+46=Op HiHat
+47=Timpani 2 f
+48=Timpani 2 f
+49=Crash 1
+50=Timpani 2 f
+51=Ride 2
+52=China Cym
+53=MalletCymbal
+54=Tambourine
+55=Crash 1
+56=Cowbell 1
+57=Crash 1
+58=Cowbell 1
+59=Ride Bell 1
+60=Cga Mute Hi
+61=Cga Mute Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=JingleBell 2
+72=Wind Chime 3
+73=Finger Cym 2
+74=Finger Cym 2
+75=Claves
+76=Wood Block
+77=Bodhran 1
+78=Bodhran 4
+79=Bodhran 2
+80=Bodhran 3
+81=Bodhran 5
+82=Bodhran 6
+83=Bodhran 7
+84=CymbalScrape
+85=Finger Cym 2
+86=OrchPrc Hit
+87=ChurchBell 2
+88=Grongkas
+89=Harp Maj Up
+90=U.Pipe Orn A
+91=Harp Maj Dn
+92=U.Pipe Orn A
+93=Bodhran 7
+94=U.Pipe Orn A
+95=Timpani Roll
+96=Metronome 2
+97=R8 Click
+98=Metronome 1
+
+;MENUS
+;The Patch Split/Layer Menus are not shown here
+
+[Roland SR-JV80-16 Menu:242 Bodhran Menu]
+60=C4 Bodhran 1
+62=D4 Bodhran 2
+64=E4 Bodhran 3
+65=F4 Bodhran 4
+67=G4 Bodhran 5
+69=A4 Bodhran 6
+71=B4 Bodhran 7
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+; If you manually insert this Instrument Definition into your Master.ins,
+; you must modify the Expansion Slot Bank Numbers below to your Expansion
+; Board configuration.
+;
+; It is easier to Drag the Expansion Board Names within the Cakewalk
+; "Define Instruments and Names" dialog.
+;
+; See the Cakewalk Readme.rtf file or the Li'l Chips SR-JV80 Info page.
+;
+; Number   Slot Bank
+; 10752    A1 (patches 1-128)
+; 10753    A2 (patches 129-255)
+; 10754    B1 (patches 1-128)
+; 10755    B2 (patches 129-255)
+; 10756    C1 (patches 1-128)
+; 10757    C2 (patches 129-255)
+; 10758    D1 (patches 1-128)
+; 10759    D2 (patches 129-255)
+; 10760    E1 (patches 1-128)
+; 10761    E2 (patches 129-255)
+; 10762    F1 (patches 1-128)
+; 10763    F2 (patches 129-255)
+; 10764    G1 (patches 1-128)
+; 10765    G2 (patches 129-255)
+; 10766    H1 (patches 1-128)
+; 10767    H2 (patches 129-255)
+
+; Expansion Board Slot-A
+[Roland SR-JV80-16 Orchestral II Expansion]
+Patch[10752]=Roland SR-JV80-16 Orchestral II 001-128
+Patch[10753]=Roland SR-JV80-16 Orchestral II 129-256
+Key[10753,113]=Roland SR-JV80-16 Menu:242 Bodhran Menu
+Drum[10753,113]=1
+
+[Roland SR-JV80-16 Orchestral II Rhythm]
+Patch[10752]=Roland SR-JV80-16 Orchestral II Rhythm 001-002
+Key[10752,0]=Roland SR-JV80-16 Rhythm:01 Orch Set
+Key[10752,1]=Roland SR-JV80-16 Rhythm:02 Celtic Set
+Drum[10752,0]=1
+Drum[10752,1]=1

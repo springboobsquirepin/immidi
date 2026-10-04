@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=ImMidi
+GenericName=MIDI Player
+Comment=Play MIDI files on GM, GS and XG sound modules
+Exec=ImMidi %F
+Icon=org.immidi.ImMidi
+Terminal=false
+Categories=AudioVideo;Audio;Player;Midi;
+MimeType=audio/midi;audio/x-midi;
+StartupWMClass=ImMidi

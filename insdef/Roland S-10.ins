@@ -1,0 +1,190 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland S-10 Digital Sampling Keyboard
+;
+; Li'l Chips Systems - 1.0c 8 July 1999
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland S-10 Sampler]
+0=001 A
+1=002 B
+2=003 C
+3=004 D
+4=005 AB
+5=006 CD
+6=007 ABCD
+7=008 A/B
+8=009 C/D
+9=010 AB/CD
+10=011 A/B/C/D
+11=012 Detune A
+12=013 Detune B
+13=014 Detune C
+14=015 Detune D
+15=016 Detune AB
+16=017 Detune CD
+17=018 Detune ABCD
+18=019 Detune A/B
+19=020 Detune C/D
+20=021 Detune AB/CD
+21=022 Detune A/B/C/D
+22=023 Delay A
+23=024 Delay B
+24=025 Delay C
+25=026 Delay D
+26=027 Delay AB
+27=028 Delay CD
+28=029 Delay ABCD
+29=030 Delay A/B
+30=031 Delay C/D
+31=032 Delay AB/CD
+32=033 Delay A/B/C/D
+33=034 Dual A B
+34=035 Dual A C
+35=036 Dual A D
+36=037 Dual A CD
+37=038 Dual A C/D
+38=039 Dual B C
+39=040 Dual B D
+40=041 Dual B CD
+41=042 Dual B C/D
+42=043 Dual C D
+43=044 Dual C AB
+44=045 Dual C A/B
+45=046 Dual D AB
+46=047 Dual D A/B
+47=048 Dual AB CD
+48=049 Dual AB C/D
+49=050 Dual CD A/B
+50=051 Dual A/B C/D
+51=052 VelMix A B
+52=053 VelMix A C
+53=054 VelMix A D
+54=055 VelMix A CD
+55=056 VelMix A C/D
+56=057 VelMix B A
+57=058 VelMix B C
+58=059 VelMix B D
+59=060 VelMix B CD
+60=061 VelMix B C/D
+61=062 VelMix C A
+62=063 VelMix C B
+63=064 VelMix C D
+64=065 VelMix C AB
+65=066 VelMix C A/B
+66=067 VelMix D A
+67=068 VelMix D B
+68=069 VelMix D C
+69=070 VelMix D AB
+70=071 VelMix D A/B
+71=072 VelMix AB C
+72=073 VelMix AB D
+73=074 VelMix AB CD
+74=075 VelMix AB C/D
+75=076 VelMix CD A
+76=077 VelMix CD B
+77=078 VelMix CD AB
+78=079 VelMix CD A/B
+79=080 VelMix A/B C
+80=081 VelMix A/B D
+81=082 VelMix A/B CD
+82=083 VelMix A/B C/D
+83=084 VelMix C/D A
+84=085 VelMix C/D B
+85=086 VelMix C/D AB
+86=087 VelMix C/D A/B
+87=088 VelSwt A B
+88=089 VelSwt A C
+89=090 VelSwt A D
+90=091 VelSwt A CD
+91=092 VelSwt A C/D
+92=093 VelSwt B A
+93=094 VelSwt B C
+94=095 VelSwt B D
+95=096 VelSwt B CD
+96=097 VelSwt B C/D
+97=098 VelSwt C A
+98=099 VelSwt C B
+99=100 VelSwt C D
+100=101 VelSwt C AB
+101=102 VelSwt C A/B
+102=103 VelSwt D A
+103=104 VelSwt D B
+104=105 VelSwt D C
+105=106 VelSwt D AB
+106=107 VelSwt D A/B
+107=108 VelSwt AB C
+108=109 VelSwt AB D
+109=110 VelSwt AB CD
+110=111 VelSwt AB C/D
+111=112 VelSwt CD A
+112=113 VelSwt CD B
+113=114 VelSwt CD AB
+114=115 VelSwt CD A/B
+115=116 VelSwt A/B C
+116=117 VelSwt A/B D
+117=118 VelSwt A/B CD
+118=119 VelSwt A/B C/D
+119=120 VelSwt C/D A
+120=121 VelSwt C/D B
+121=122 VelSwt C/D AB
+122=123 VelSwt C/D A/B
+123=124 Rx A
+124=125 Rx B
+125=126 Rx C
+126=127 Rx D
+127=128 Rx AB
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+[Roland S-10 Controllers]
+1=1-Modulation
+6=6-Data Entry MSB
+38=38-Data Entry LSB
+64=64-Hold 1
+100=100-RPN LSB
+101=101-RPN MSB
+123=123-All Note Off
+124=124-Omni Off
+125=125-Omni On
+126=126-Mono
+127=127-Poly
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+[Roland S-10 RPN]
+0=Pitch Bend Sensitivity
+1=Master Fine Tuning
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+[Roland S-10 Sampler]
+Control=Roland S-10 Controllers
+RPN=Roland S-10 RPN
+Patch[*]=Roland S-10 Sampler

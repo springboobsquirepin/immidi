@@ -1,0 +1,151 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland SRX-02 Concert Piano Expansion Board
+;
+; Patches: 50
+; Menus:   0?
+; Rhythms: 0
+;
+; Portions provided by Fred Grittner.
+;
+; Li'l Chips Systems - 1.0a Sep 08 2000
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland SRX-02 Concert Piano 1-50]
+0=CPno:01 Premier Grand
+1=CPno:02 Steady Grand
+2=CPno:03 Dynamic Grand
+3=CPno:04 Concert Hall
+4=CPno:05 Bright Grand
+5=CPno:06 Classical
+6=CPno:07 SoftPdlGrand
+7=CPno:08 OnMic Premier
+8=CPno:09 OnMic Bright
+9=CPno:10 OnMicSoftPdl
+10=CPno:11 Premier Mono
+11=CPno:12 Bright Mono
+12=CPno:13 Softpdl Mono
+13=CPno:14 Mellow Piano
+14=CPno:15 Enhanced Piano
+15=CPno:16 Comp Piano
+16=CPno:17 HonkyTonk Piano
+17=CPno:18 NewAgeGrand1
+18=CPno:19 NewAgeGrand2
+19=CPno:20 Requiem
+20=CPno:21 Soundscape
+21=CPno:22 Grand wStrngs
+22=CPno:23 Concerto 1
+23=CPno:24 Concerto 2
+24=CPno:25 SoftPad Grand
+25=CPno:26 Synpad Grand
+26=CPno:27 Vox Grand 1
+27=CPno:28 Vox Grand 2
+28=CPno:29 Oohs Piano
+29=CPno:30 Air Grand
+30=CPno:31 GtrPad Grand
+31=CPno:32 PhasePad Pno
+32=CPno:33 HeavenPad Pno
+33=CPno:34 Somber Pad
+34=CPno:35 Wet Chorus
+35=CPno:36 Nylon Grand
+36=CPno:37 FM EP Grand
+37=CPno:38 Bell Grand
+38=CPno:39 Bellvox Piano
+39=CPno:40 Stacked Grand
+40=CPno:41 Hard Stack 1
+41=CPno:42 Hard Stack 2
+42=CPno:43 PianoBrass
+43=CPno:44 PianoBrass fff
+44=CPno:45 Gig Split 1
+45=CPno:46 Gig Split 2
+46=CPno:47 Gig Split 3
+47=CPno:48 Throb Piano
+48=CPno:49 Feedback Pno
+49=CPno:50 Eastern 5th
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+; NOTE!
+;
+; If you manually insert this Instrument Definition into your Master.ins,
+; you must modify the Expansion Slot Bank Numbers below to your Expansion
+; Board configuration.
+;
+; It is easier to Drag the Expansion Board Names within the Cakewalk
+; "Define Instruments and Names" dialog.
+;
+; See the Cakewalk Readme.rtf file or the Li'l Chips SRX Info page.
+;
+; PATCH BANKS:          XV-5080    XV-3080    XV-88
+;
+; Slot Bank             Number     Number     Number
+; A1 (patches 1-128)    11392      11392      11392
+; A2 (patches 129-255)  11393      11393      11393
+; B1 (patches 1-128)    11394      11394      11394
+; B2 (patches 129-255)  11395      11395      11395
+; C1 (patches 1-128)    11396      11396      11904
+; C2 (patches 129-255)  11397      11397      11905
+; D1 (patches 1-128)    11398      11398      11906
+; D2 (patches 129-255)  11399      11399      11907
+; E1 (patches 1-128)    11904      11904
+; E2 (patches 129-255)  11905      11905
+; F1 (patches 1-128)    11906      11906
+; F2 (patches 129-255)  11907      11907
+; G1 (patches 1-128)    11908
+; G2 (patches 129-255)  11909
+; H1 (patches 1-128)    11910
+; H2 (patches 129-255)  11911
+;
+; RHYTHM BANKS:         XV-5080    XV-3080    XV-88
+;
+; Slot Bank             Number     Number     Number
+; A1 (patches 1-128)    11264      11264      11264 
+; A2 (patches 129-255)  11265      11265      11265 
+; B1 (patches 1-128)    11266      11266      11266 
+; B2 (patches 129-255)  11267      11267      11267 
+; C1 (patches 1-128)    11268      11268      11776
+; C2 (patches 129-255)  11269      11269      11777
+; D1 (patches 1-128)    11270      11270      11778
+; D2 (patches 129-255)  11271      11271      11779
+; E1 (patches 1-128)    11776      11776
+; E2 (patches 129-255)  11777      11777
+; F1 (patches 1-128)    11778      11778
+; F2 (patches 129-255)  11779      11779
+; G1 (patches 1-128)    11780
+; G2 (patches 129-255)  11781
+; H1 (patches 1-128)    11782
+; H2 (patches 129-255)  11783
+
+; Expansion Board Slot-E
+[Roland SRX-02 Concert Piano]
+Patch[11904]=Roland SRX-02 Concert Piano 1-50

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ImMidi Bridge
+GenericName=MIDI Converter
+Comment=Convert MIDI messages between GM, GS and XG sound modules in real time
+Exec=ImMidiBridge
+Icon=org.immidi.ImMidiBridge
+Terminal=false
+Categories=AudioVideo;Audio;Midi;
+StartupWMClass=ImMidiBridge

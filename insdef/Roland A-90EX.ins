@@ -1,0 +1,217 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland A-90EX Expandable Controller
+; with VE-RD1 Piano Voice Expansion Board
+;
+; Li'l Chips Systems - 1.0a 26 July 1999
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland A-90EX]
+0=001 St.Concert 1
+1=002 St.Concert 2
+2=003 St.Concert 3
+3=004 St.Concert 4
+4=005 St.Concert 5
+5=006 St.Concert 6
+6=007 St.Concert 7
+7=008 St.Concert 8
+8=009 St.Concertff
+9=010 St.SemiGrd 1
+10=011 St.SemiGrd 2
+11=012 St.SemiGrd 3
+12=013 St.SemiGrd 4
+13=014 Euro Piano 1
+14=015 Euro Piano 2
+15=016 Euro Piano 3
+16=017 Euro Piano 4
+17=018 Full Grand 1
+18=019 Full Grand 2
+19=020 Full Grand 3
+20=021 Full Grand 4
+21=022 Full Grand 5
+22=023 Full Grand 6
+23=024 Semi Grand 1
+24=025 Semi Grand 2
+25=026 Semi Grand 3
+26=027 Semi Grand 4
+27=028 Semi Grand 5
+28=029 Semi Grand 6
+29=030 JV80 Piano 1
+30=031 JV80 Piano 2
+31=032 JV80 Piano 3
+32=033 SA E.Grand 1
+33=034 SA E.Grand 2
+34=035 CP E.Grand
+35=036 SA Rhodes 1
+36=037 SA Rhodes 2
+37=038 Suitcase
+38=039 STAGE Rhodes
+39=040 Mr.Suitcase
+40=041 Rhodes p
+41=042 Rhodes m
+42=043 Rhodes f
+43=044 DynoRhodes 1
+44=045 DynoRhodes 2
+45=046 Wurly
+46=047 Wurly p
+47=048 Wurly mf
+48=049 Wurly f
+49=050 D-50 EPiano 1
+50=051 D-50 EPiano 2
+51=052 D-50 Stack
+52=053 Like Dee
+53=054 FM EPiano 1
+54=055 FM EPiano 2
+55=056 FM EP 3_1
+56=057 FM EP 3_2
+57=058 FM EP 3_3
+58=059 FM EP 3_4
+59=060 B-3 Organ 1
+60=061 B-3 Organ 2
+61=062 B-3 Organ 3
+62=063 B-3 Organ 4
+63=064 60s Organ 1
+64=065 60s Organ 2
+65=066 Sqr Organ
+66=067 Vibe
+67=068 Warm Vibes
+68=069 AmbienceVibe
+69=070 Dyna Marimba
+70=071 Clav 1
+71=072 Clav 2
+72=073 Clav 3
+73=074 Juno Clav
+74=075 Poly Synth
+75=076 Pulse Key 1
+76=077 Pulse Key 2
+77=078 Square Key
+78=079 St.Strings
+79=080 Warm Strings
+80=081 Slow Strings
+81=082 Strings
+82=083 OB Thick Pad
+83=084 OB Soft Pad
+84=085 Soft Pad
+85=086 Pulse Pad
+86=087 SynStrings 1
+87=088 SynStrings 2
+88=089 SynStrings 3
+89=090 After Rave
+90=091 JP-8Haunting
+91=092 Synth Brass1
+92=093 Synth Brass2
+93=094 Synth Brass3
+94=095 Synth Brass4
+95=096 Dawn 2 Dusk
+96=097 Square Pad
+97=098 EPno Pad
+98=099 7th Sand
+99=100 Sweep Pad
+100=101 A90 Prologue
+101=102 A90 Rand Pad
+102=103 LFO Strings
+103=104 A-90 Aurora
+104=105 A-90 Waltz
+105=106 A-90 Strobe
+106=107 Fooled Again
+107=108 Beauty Vox
+108=109 Syn Vox 1
+109=110 Syn Vox 2
+110=111 Angel Ooohz
+111=112 Heaven
+112=113 Sawteeth
+113=114 Pulse Lead
+114=115 Synth Lead 1
+115=116 Synth Lead 2
+116=117 GR Lead
+117=118 20 Years ago
+118=119 SquareLead
+119=120 Finger Bass1
+120=121 Finger Bass2
+121=122 Pick Bass
+122=123 Ac.Bass
+123=124 Wonder Bass
+124=125 Super JX Bs
+125=126 Synth Bass
+126=127 Rubber Bass
+127=128 PedalBass
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+[Roland A-90EX Controllers]
+1=1-Modulation
+2=2-Breath type
+4=4-Foot type
+5=5-Portamento time
+6=6-Data Entry MSB
+7=7-Volume
+8=8-Balance
+10=10-Panpot
+11=11-Expression
+38=38-Data Entry LSB
+64=64-Hold 1
+65=65-Portamento
+66=66-Sostenuto
+67=67-Soft pedal
+69=69-Hold 2
+84=84-Portamento Control
+91=91-Reverb Send Level
+93=93-Chorus Send Level
+98=98-NRPN LSB
+99=99-NRPN MSB
+100=100-RPN LSB
+101=101-RPN MSB
+120=120-All Sound Off
+121=121-Reset All Controllers
+123=123-All Note Off
+124=124-Omni Off
+125=125-Omni On
+126=126-Mono
+127=127-Poly
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+[Roland A-90EX RPN]
+0=Pitch Bend Sensitivity
+1=Master Fine Tuning
+2=Master Coarse Tuning
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+[Roland A-90EX NRPN]
+160=Bright
+227=Attack Time
+228=Decay Time
+230=Release Time
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+[Roland A-90EX]
+Control=Roland A-90EX Controllers
+RPN=Roland A-90EX RPN
+NRPN=Roland A-90EX NRPN
+Patch[*]=Roland A-90EX

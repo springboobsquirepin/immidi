@@ -1,0 +1,1518 @@
+
+; ----------------------------------------------------------------------
+; Cakewalk Instrument Definition File
+; Roland SR-JV80-10 Bass & Drums Expansion Board
+;
+; Patches: 204
+; Menus:   28
+; Rhythms: 8
+;
+; Li'l Chips Systems - 1.0b March 17 2000
+; Web:   www.lilchips.com
+; Email: info@lilchips.com
+
+; ----------------------------------------------------------------------
+
+.Patch Names
+
+
+[Roland SR-JV80-10 Bass&Drums 001-128]
+0=B&D:001 Marcus 3way
+1=B&D:002 MM Slap/Hrm
+2=B&D:003 MM Fat Slap
+3=B&D:004 Miller Pop
+4=B&D:005 MM Dynathumb
+5=B&D:006 Abe Sr. 4way
+6=B&D:007 AL 3way/Nz
+7=B&D:008 AL 3way P.Bs
+8=B&D:009 Abe Limiter
+9=B&D:010 Space Bass
+10=B&D:011 Hyper Funk
+11=B&D:012 Abe's Thumbs
+12=B&D:013 AL Dark Slap
+13=B&D:014 Poppin' Abe
+14=B&D:015 John P.4way
+15=B&D:016 John P. w/Nz
+16=B&D:017 JP Chorus Bs
+17=B&D:018 6StringThing
+18=B&D:019 Mondo Johndo
+19=B&D:020 JP Fat Slap
+20=B&D:021 JP Brite Slp
+21=B&D:022 JP Fing+Slap
+22=B&D:023 Solo Fretles
+23=B&D:024 MM FretnotBs
+24=B&D:025 Marcus OctFl
+25=B&D:026 MM FrtlsBend
+26=B&D:027 MM Smooth Fl
+27=B&D:028 MM Weathery
+28=B&D:029 Abe's Fretls
+29=B&D:030 AL French Ch
+30=B&D:031 AL Layer Fls
+31=B&D:032 AL Fls Solo
+32=B&D:033 JP 6Str Fls
+33=B&D:034 JP Solo Fls
+34=B&D:035 John's OctFl
+35=B&D:036 B-Motional
+36=B&D:037 Weather Frls
+37=B&D:038 AcoustiTouch
+38=B&D:039 JP Soft A.Bs
+39=B&D:040 JP Hard A.Bs
+40=B&D:041 Ac.Bs Club
+41=B&D:042 Dry Acoustic
+42=B&D:043 Hybrid Wood
+43=B&D:044 John's Rock
+44=B&D:045 Pick UP
+45=B&D:046 JP Rock Pick
+46=B&D:047 Dark Pick
+47=B&D:048 JP Rock+Slap
+48=B&D:049 JP Rock Fls
+49=B&D:050 Velo Rock Bs
+50=B&D:051 JP P.Bass 1
+51=B&D:052 JP P.Bass 2
+52=B&D:053 JP P.Bass 3
+53=B&D:054 JP P.Bass 4
+54=B&D:055 Dyno Ballad
+55=B&D:056 Velo Fingers
+56=B&D:057 Ch. Fingers
+57=B&D:058 StudioMellow
+58=B&D:059 Fat Fingers
+59=B&D:060 Touchy Bass
+60=B&D:061 Abe's P.Bass
+61=B&D:062 AL Solid Fng
+62=B&D:063 AL 2way Fng
+63=B&D:064 AbeSoftBs/Nz
+64=B&D:065 Abe Latin Bs
+65=B&D:066 AL Latin Ch.
+66=B&D:067 AL Fat Latin
+67=B&D:068 AL Old Soul
+68=B&D:069 AL Mellow
+69=B&D:070 Marcus Jazz
+70=B&D:071 MM Jazz Ch.
+71=B&D:072 MM Jazz Bs
+72=B&D:073 Marcus Mute
+73=B&D:074 Bright Pick
+74=B&D:075 Garden Party
+75=B&D:076 Phaser Mute
+76=B&D:077 MM Dry Mute
+77=B&D:078 MM Hip-Hop
+78=B&D:079 Wild Thang
+79=B&D:080 Distorted Bs
+80=B&D:081 Rock Phaser
+81=B&D:082 Mod.Fuzz Bs
+82=B&D:083 Sticky Bass
+83=B&D:084 Abe Flangpop
+84=B&D:085 Mutey SynBs
+85=B&D:086 Funkin'WahBs
+86=B&D:087 T-Wow Fretls
+87=B&D:088 T-Wow Slappy
+88=B&D:089 Bass SOLO!!
+89=B&D:090 Refretter
+90=B&D:091 Bass Harmos
+91=B&D:092 Marcus Harms
+92=B&D:093 Harmonicus
+93=B&D:094 Tune Up
+94=B&D:095 Harm Up
+95=B&D:096 Harm Down
+96=B&D:097 Harm A#9
+97=B&D:098 Harm Eb#9
+98=B&D:099 Harm E+11
+99=B&D:100 Harm E69
+100=B&D:101 SlidesNoises
+101=B&D:102 All Slides
+102=B&D:103 All Noises
+103=B&D:104 Ac.Bs Noises
+104=B&D:105 Kick Menu
+105=B&D:106 Snare Menu 1
+106=B&D:107 Snare Menu 2
+107=B&D:108 Snare Menu 3
+108=B&D:109 Hi-Hat Menu
+109=B&D:110 Tom-Tom Menu
+110=B&D:111 Cymbals Menu
+111=B&D:112 Drum LP Demo
+112=B&D:113 Sweeping LPs
+113=B&D:114 Lo-Fi Loops
+114=B&D:115 AmbGrv/Bs 90
+115=B&D:116 SlapHappy 90
+116=B&D:117 PlayC4Fun 90
+117=B&D:118 Flanged  112
+118=B&D:119 BW Jz 6/8 52
+119=B&D:120 BW Brush  66
+120=B&D:121 AL Slam   66
+121=B&D:122 AL Whack  76
+122=B&D:123 AL Grunge 84
+123=B&D:124 BW Swamp  90
+124=B&D:125 BW Latin 102
+125=B&D:126 BW Fusion112
+126=B&D:127 AL Funk  120
+127=B&D:128 AL Shuff.126
+
+[Roland SR-JV80-10 Bass&Drums 129-204]
+0=B&D:129 Fat Rock KIT
+1=B&D:130 Ringer KIT
+2=B&D:131 DynaPicc.KIT
+3=B&D:132 Whammer KIT
+4=B&D:133 BigBalladKIT
+5=B&D:134 Fat PunchKIT
+6=B&D:135 Fat Funk KIT
+7=B&D:136 Garage KIT
+8=B&D:137 Rock On KIT
+9=B&D:138 Natural KIT
+10=B&D:139 Pitched KIT
+11=B&D:140 Basher KIT
+12=B&D:141 Edgy KIT
+13=B&D:142 FAT Comp.KIT
+14=B&D:143 FAT & Tight
+15=B&D:144 Studio KIT
+16=B&D:145 Tight FunKIT
+17=B&D:146 TightPiccKIT
+18=B&D:147 Dry DanceKIT
+19=B&D:148 R&B KIT
+20=B&D:149 DynoSnareKIT
+21=B&D:150 Room Toms
+22=B&D:151 Natural Toms
+23=B&D:152 Soft Toms
+24=B&D:153 Big Toms Dry
+25=B&D:154 Big Toms Wet
+26=B&D:155 Ringer Snare
+27=B&D:156 Loud Ring Sn
+28=B&D:157 Live Piccolo
+29=B&D:158 Wet Piccolo
+30=B&D:159 Natural Crak
+31=B&D:160 Natural Verb
+32=B&D:161 Natural Bryt
+33=B&D:162 Dry Ringer
+34=B&D:163 Rock On Room
+35=B&D:164 Rock On Wet
+36=B&D:165 FAT Impact
+37=B&D:166 Nice Ballad
+38=B&D:167 Huge FAT Snr
+39=B&D:168 Warm Room Sn
+40=B&D:169 Warm Verb Sn
+41=B&D:170 Dry FAT Sn
+42=B&D:171 FAT Hall Sn
+43=B&D:172 Funk Sn Dry
+44=B&D:173 Funk Sn Room
+45=B&D:174 Natural Ping
+46=B&D:175 Room Ping
+47=B&D:176 Dance Snr 1
+48=B&D:177 Dance Snr 2
+49=B&D:178 Kick&Cym 1/2
+50=B&D:179 Kick&Cym 1/4
+51=B&D:180 Kick&Cym 2
+52=B&D:181 Butt Kicker
+53=B&D:182 Kick&Cym 2/3
+54=B&D:183 Kick&Cym 2/8
+55=B&D:184 Kick&Cym 3
+56=B&D:185 Kick&Cym 4
+57=B&D:186 Kick&Cym 5
+58=B&D:187 Kick&Cym 6
+59=B&D:188 Kick&Cym 7
+60=B&D:189 Kick&Cym 6/8
+61=B&D:190 Kick&Cym 8
+62=B&D:191 Kick&Cym 8/2
+63=B&D:192 Kick&Cym 9
+64=B&D:193 Kick&Cym 9/6
+65=B&D:194 Kick&Cym 10
+66=B&D:195 Kick&Cym 11
+67=B&D:196 Kick&Cym 12
+68=B&D:197 Kik&Cym11/12
+69=B&D:198 Kick&Cym12/4
+70=B&D:199 Lo-Fi Kick
+71=B&D:200 18"Hi-Hats1
+72=B&D:201 18"Hi-Hats2
+73=B&D:202 16"Hi-Hats1
+74=B&D:203 16"Hi-Hats2
+75=B&D:204 CR-78 Hi-Hat
+
+[Roland SR-JV80-10 Bass&Drums Rhythm 001-008]
+0=Roland SR-JV80-10 Rhythm:01 R&R rhythm 1
+1=Roland SR-JV80-10 Rhythm:02 Funk SET
+2=Roland SR-JV80-10 Rhythm:03 Natural SET
+3=Roland SR-JV80-10 Rhythm:04 Slam SET
+4=Roland SR-JV80-10 Rhythm:05 Ballad SET
+5=Roland SR-JV80-10 Rhythm:06 Studio SET
+6=Roland SR-JV80-10 Rhythm:07 R&R rhythm 2
+7=Roland SR-JV80-10 Rhythm:08 Dance SET
+
+; ----------------------------------------------------------------------
+
+.Note Names
+
+
+;Rhythm Sets
+
+[Roland SR-JV80-10 Rhythm:01 R&R rhythm 1]
+35=Boomer K1
+36=Boomer K2
+37=Live Stick
+38=Ring hrd Sn
+39=Ring rol Sn
+40=Ring flm Sn
+41=16 MPL hrdTm
+42=18 Hat cls 1
+43=13 MPL hrdTm
+44=18 Hat cls 2
+45=12 MPL hrdTm
+46=18 Hat opn 2
+47=12 MPL hrdTm
+48=10 MPL hrdTm
+49=Long Crash 1
+50=10 MPL hrdTm
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 2
+56=Cowbell 1
+57=Long Crash 2
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Deep Dry K
+73=Real Dry K1
+74=Comp K1
+75=Ring rol Sn
+76=Ring sft Sn
+77=Ring hrd Sn
+78=Ring flm Sn
+79=SlamRm sftSn
+80=SlamRm rolSn
+81=SlamRm hrdSn
+82=SlamRm flmSn
+83=18 Hat hlf 1
+84=18 Hat hlf 2
+85=18 Hat pdl
+86=18 Hat opn 1
+87=16 MPL sftTm
+88=13 MPL sftTm
+89=12 MPL sftTm
+90=10 MPL sftTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=BW Jz 6/8 52
+96=BW Fusion112
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:02 Funk SET]
+35=Real Dry K3
+36=Real Dry K2
+37=NaturalStick
+38=Funk Sn1
+39=Picc. flm Sn
+40=Funk Sn2
+41=16 MPL hrdTm
+42=16 Hat cls 2
+43=16 MPL sftTm
+44=16 Hat hlf 1
+45=13 MPL hrdTm
+46=16 Hat opn 1
+47=12 MPL sftTm
+48=10 MPL hrdTm
+49=Long Crash 1
+50=10 MPL sftTm
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 2
+56=Cowbell 1
+57=Long Crash 2
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Timbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Deep Dry K
+73=Comp K1
+74=Comp K2
+75=Picc. rol Sn
+76=Funk Sn1
+77=Funk Sn2
+78=Dry flm Sn
+79=Picc. sft Sn
+80=Picc. rol Sn
+81=Picc. mid Sn
+82=Picc. flm Sn
+83=16 Hat cls 1
+84=16 Hat opn 1
+85=16 Hat pdl
+86=16 Hat opn 2
+87=16 MPL sftTm
+88=13 MPL sftTm
+89=12 MPL sftTm
+90=10 MPL sftTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=BW Swamp 90
+96=AL Shuff.126
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:03 Natural SET]
+35=Real Dry K2
+36=Deep Dry K
+37=NaturalStick
+38=Dry hrd Sn
+39=Dry rol Sn
+40=Dry sft Sn
+41=16 MPL sftTm
+42=16 Hat cls 2
+43=13 MPL sftTm
+44=16 Hat hlf 1
+45=12 MPL sftTm
+46=10 Hat opn 1
+47=12 MPL sftTm
+48=10 MPL sftTm
+49=Long Crash 2
+50=10 MPL sftTm
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 1
+56=Cowbell 1
+57=Long Crash 1
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Tinbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Real Dry K1
+73=Comp K2
+74=Comp K3
+75=Dry rol Sn
+76=Dry sft Sn
+77=Dry hrd Sn
+78=Dry flm Sn
+79=SlamRm sftSn
+80=SlamRm rolSn
+81=SlamRm hrdSn
+82=SlamRm flmSn
+83=16 Hat cls 1
+84=16 Hat hlf 2
+85=16 Hat pdl
+86=16 Hat opn 2
+87=16 MPL hrdTm
+88=13 MPL hrdTm
+89=12 MPL hrdTm
+90=10 MPL hrdTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=BW Jz 6/8 52
+96=BW Latin 102
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:04 Slam SET]
+35=Boomer K2
+36=Comp K3
+37=Live Stick
+38=RockOn Sn1
+39=Dry flm Sn
+40=RockOn Sn2
+41=16 MPL hrdTm
+42=16 Hat cls 1
+43=13 MPL hrdTm
+44=16 Hat hlf 2
+45=12 MPL hrdTm
+46=16 Hat opn 2
+47=12 MPL hrdTm
+48=10 MPL hrdTm
+49=Long Crash 1
+50=10 MPL hrdTm
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 1
+56=Cowbell 1
+57=Long Crash 2
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Tinbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Boomer K1
+73=Comp K2
+74=Deep Dry K
+75=DryFat rolSn
+76=RockOn Sn1
+77=RockOn Sn2
+78=Warm flm Sn
+79=SlamRm sftSn
+80=SlamRm rolSn
+81=SlamRm hrdSn
+82=SlamRm flmSn
+83=16 Hat cls 2
+84=16 Hat hlf 1
+85=16 Hat pdl
+86=16 Hat opn 1
+87=16 MPL sftTm
+88=13 MPL sftTm
+89=12 MPL sftTm
+90=10 MPL sftTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=AL Slam 66
+96=AL Grunge 84
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:05 Ballad SET]
+35=Real Dry K1
+36=Comp K3
+37=Natural Stick
+38=Verb hrd Sn
+39=Warm flm Sn
+40=Verb sft Sn
+41=LoVerb hrdTm
+42=16 Hat cls 1
+43=LoVerb hrdTm
+44=16 Hat cls 2
+45=HiVerb hrdTm
+46=16 Hat opn 2
+47=HiVerb hrdTm
+48=HiVerb hrdTm
+49=Long Crash 1
+50=HiVerb hrdTm
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 2
+56=Cowbell 1
+57=Long Crash 2
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Tinbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Boomer K2
+73=Comp K1
+74=Lo-Fi K
+75=Ring rol Sn
+76=Verb sft Sn
+77=Verb hrd Sn
+78=Warm flm Sn
+79=DryFat sftSn
+80=DryFat rolSn
+81=DryFat hrdSn
+82=DryFat flmSn
+83=16 Hat cls 1
+84=16 Hat opn 1
+85=16 Hat pdl
+86=16 Hat opn 2
+87=LoVerb sftTm
+88=LoVerb sftTm
+89=HiVerb sftTm
+90=HiVerb sftTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=AL Slam   66
+96=AL Funk  120
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:06 Studio SET]
+35=Real Dry K1
+36=Deep Dry K
+37=NaturalStick
+38=DryFat hrdSn
+39=DryFat flmSn
+40=Warm sft Sn
+41=16 MPL hrdTm
+42=18 Hat cls 2
+43=13 MPL hrdTm
+44=18 Hat hlf 1
+45=12 MPL hrdTm
+46=18 Hat opn 2
+47=12 MPL hrdTm
+48=10 MPL hrdTm
+49=Long Crash 1
+50=10 MPL hrdTm
+51=Long Ride 1
+52=Long Crash 2
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 2
+56=Cowbell 1
+57=Long Crash 2
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Tinbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Boomer K1
+73=Comp K2
+74=Comp K3
+75=DryFat rolSn
+76=DryFat sftSn
+77=DryFat hrdSn
+78=DryFat flmSn
+79=Warm sft Sn
+80=Dry rol Sn
+81=Warm hrd Sn
+82=Warm flm Sn
+83=18 Hat cls 1
+84=18 Hat hlf 2
+85=18 Hat pdl
+86=18 Hat opn 1
+87=16 MPL sftTm
+88=13 MPL sftTm
+89=12 MPL sftTm
+90=10 MPL sftTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=BW Brush  66
+96=AL Slam   66
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:07 R&R rhythm 2]
+35=Deep Dry K
+36=Medium K
+37=Live Stick
+38=SlamRm sftSn
+39=SlamRm flmSn
+40=SlamRm hrdSn
+41=LoVerb sftTm
+42=16 Hat cls 2
+43=Soft Low Tom
+44=16 Hat hlf 1
+45=HiVerb sftTm
+46=16 Hat opn 1
+47=Soft Mid Tom
+48=HiVerb sftTm
+49=Long Crash 2
+50=Soft Hi Tom
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 2
+56=Cowbell 1
+57=Long Crash 1
+58=Vibraslap
+59=Long Ride 2
+60=Bongo Hi
+61=Bongo Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Tinbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=Boomer K2
+73=Boomer K1
+74=Real Dry K2
+75=SlamRm rolSn
+76=SlamRm sftSn
+77=SlamRm hrdSn
+78=SlamRm flmSn
+79=SlmDry sftSn
+80=Ring rol Sn
+81=SlmDry hrdSn
+82=Ring flm Sn
+83=16 Hat cls 1
+84=16 Hat hlf 2
+85=16 Hat pdl
+86=16 Hat opn 2
+87=LoVerb hrdTm
+88=Soft Low Tom
+89=HiVerb hrdTm
+90=HiVerb hrdTm
+91=Long Crash 2
+92=18 Hat cls 2
+93=LiteVerb Sn
+94=Stomp K
+95=BW Latin 102
+96=AL Funk  120
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+[Roland SR-JV80-10 Rhythm:08 Dance SET]
+35=Comp K3
+36=Stomp K
+37=NaturalStick
+38=LiteVerb Sn
+39=808 Claps
+40=Choke Sn
+41=Soft Low Tom
+42=CR78 Hat cls
+43=Soft Low Tom
+44=CR78 Hat opn
+45=Soft Mid Tom
+46=CR78 Hat opn
+47=Soft Mid Tom
+48=Soft Hi Tom
+49=Long Crash 2
+50=Soft Mid Tom
+51=Long Ride 1
+52=China Cym
+53=LngRide Bell
+54=Tambourine
+55=Long Crash 2
+56=Cowbell 1
+57=Long Crash 1
+58=Rattles
+59=Long Ride 2
+60=Cga Mute Hi
+61=Cga Mute Lo
+62=Cga Slap
+63=Cga Open Hi
+64=Cga Open Lo
+65=Timbale
+66=Tinbale
+67=Agogo
+68=Agogo
+69=Cabasa Up
+70=Maracas
+71=Cabasa Cut
+72=A.Bs Nz MENU
+73=808 Kick
+74=AL Slam   66
+75=Hand Claps
+76=808 SN
+77=White Noise
+78=Philly Hit
+79=Vibraslap
+80=Tekno Hit
+81=Cuica
+82=Scratch 1
+83=606 HiHat Cl
+84=606 HiHat Op
+85=606 HiHat Op
+86=606 HiHat Op
+87=Dry Tom Hi
+88=Dry Tom Hi
+89=Dry Tom Hi
+90=Dry Tom Hi
+91=Long Crash 1
+92=18 Hat cls 2
+93=AL Nz 4
+94=JP Frls Nz 1
+95=AL Slam   66
+96=AL Whack  76
+97=MC500 Beep 1
+98=MC500 Beep 2
+
+
+;Menu Patches
+
+; uses menu waveform 149
+[Roland SR-JV80-10 Menu:105 Kick Menu]
+60=C 4 Meat K
+62=D 4 Boomer K1
+64=E 4 Boomer K2
+65=F 4 Medium K
+67=G 4 Deep Dry K
+69=A 4 Real Dry K1
+71=B 4 Real Dry K2
+72=C 5 Real Dry K3
+74=D 5 Stomp K
+76=E 5 Comp K1
+77=F 5 Comp K2
+79=G 5 Comp K3
+81=A 5 Lo-Fi K
+
+; uses menu waveform 163
+[Roland SR-JV80-10 Menu:106 Snare Menu 1]
+60=C 4 Ring sft Sn
+62=D 4 Ring hrd Sn
+64=E 4 Ring rol Sn
+65=F 4 Ring flm Sn
+67=G 4 SlamRm sftSn
+69=A 4 SlamRm hrdSn
+71=B 4 SlamRm rolSn
+72=C 5 SlamRm flmSn
+74=D 5 SlmDry sftSn
+76=E 5 SlmDry hrdSn
+77=F 5 Dry sft Sn
+79=G 5 Dry hrd Sn
+81=A 5 Dry rol Sn
+83=B 5 Dry flm Sn
+
+; uses menu waveform 164
+[Roland SR-JV80-10 Menu:107 Snare Menu 2]
+60=C 4 RockOn Sn1
+62=D 4 RockOn Sn2
+64=E 4 Verb sft Sn
+65=F 4 Verb hrd Sn
+67=G 4 Warm sft Sn
+69=A 4 Warm hrd Sn
+71=B 4 Warm flm Sn
+72=C 5 DryFat sftSn
+74=D 5 DryFat hrdSn
+76=E 5 DryFat rolSn
+77=F 5 DryFat flmSn
+
+; uses menu waveform 165
+[Roland SR-JV80-10 Menu:108 Snare Menu 3]
+60=C 4 Funk Sn1
+62=D 4 Funk Sn2
+64=E 4 Picc. sft Sn
+65=F 4 Picc. mid Sn
+67=G 4 Picc. hrd Sn
+69=A 4 Picc. rol Sn
+71=B 4 Picc. flm Sn
+72=C 5 Choke Sn
+74=D 5 LiteVerb Sn
+76=E 5 Live Stick
+77=F 5 Natural Stick
+79=G 5 Click Stick
+
+; uses menu waveform 203
+[Roland SR-JV80-10 Menu:109 Hi-Hat Menu]
+60=C 4 18 Hat pdl
+62=D 4 18 Hat cls 1
+64=E 4 18 Hat cls 2
+65=F 4 18 Hat hlf 1
+67=G 4 18 Hat hlf 2
+69=A 4 18 Hat opn 1
+71=B 4 18 Hat opn 2
+72=C 5 16 Hat pdl
+74=D 5 16 Hat cls 1
+76=E 5 16 Hat cls 2
+77=F 5 16 Hat hlf 1
+79=F 5 16 Hat hlf 2
+81=A 5 16 Hat opn 1
+83=B 5 16 Hat opn 2
+84=C 6 CR78 Hat cls
+86=D 6 CR78 Hat opn
+
+; uses menu waveform 220
+[Roland SR-JV80-10 Menu:110 Tom-Tom Menu]
+60=C 4 16 MPL sftTm
+62=D 4 16 MPL hrdTm
+64=E 4 13 MPL sftTm
+65=F 4 13 MPL hrdTm
+67=G 4 12 MPL sftTm
+69=A 4 12 MPL hrdTm
+71=B 4 10 MPL sftTm
+72=C 5 10 MPL hrdTm
+74=D 5 Soft Low Tom
+76=E 5 Soft Mid Tom
+77=F 5 Soft Hi Tom
+79=G 5 LoVerb sftTm
+81=A 5 LoVerb hrdTm
+83=B 5 HiVerb sftTm
+84=C 6 HiVerb hrdTm
+
+; uses menu waveform 236
+[Roland SR-JV80-10 Menu:111 Cymbals Menu]
+60=C 4 Long Crash 1
+62=D 4 Long Crash 2
+64=E 4 Long Ride 1
+65=F 4 Long Ride 2
+67=G 4 LngRide Bell
+
+; uses set waveforms 104,118,138,148
+[Roland SR-JV80-10 Menu:129 Fat Rock KIT]
+34=A#1 HAT SET 1f
+35=B 1 Kik&CymSET 3
+36=C 2 Kik&CymSET 3
+37=C#2 SNR SET 2f
+38=D 2 SNR SET 2f
+39=D#2 SNR SET 2f
+40=E 2 SNR SET 2f
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 1f
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 1f
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 1f
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 3
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 3
+52=E 3 Kik&CymSET 3
+53=F 3 Kik&CymSET 3
+54=F#3 Kik&CymSET 3
+55=G 3 Kik&CymSET 3
+
+; uses set waveforms 106,122,141,145
+[Roland SR-JV80-10 Menu:130 Ringer KIT]
+34=A#1 HAT SET 2f
+35=B 1 Kik&CymSET 5
+36=C 2 Kik&CymSET 5
+37=C#2 SNR SET 4f
+38=D 2 SNR SET 4f
+39=D#2 SNR SET 4f
+40=E 2 SNR SET 4f
+41=F 2 TOM SET 1f
+42=F#2 HAT SET 2f
+43=G 2 TOM SET 1f
+44=G#2 HAT SET 2f
+45=A 2 TOM SET 1f
+46=A#2 HAT SET 2f
+47=B 2 TOM SET 1f
+48=C 3 TOM SET 1f
+49=C#3 Kik&CymSET 5
+50=D 3 TOM SET 1f
+51=D#3 Kik&CymSET 5
+52=E 3 Kik&CymSET 5
+53=F 3 Kik&CymSET 5
+54=F#3 Kik&CymSET 5
+55=G 3 Kik&CymSET 5
+
+; uses set waveforms 106,133,134,140
+[Roland SR-JV80-10 Menu:131 DynaPicc.KIT]
+34=A#1 HAT SET 2p
+35=B 1 Kik&CymSET 5
+36=C 2 Kik&CymSET 5
+37=C#2 SNR SET 10p/10f
+38=D 2 SNR SET 10p/10f
+39=D#2 SNR SET 10p/10f
+40=E 2 SNR SET 10p/10f
+42=F#2 HAT SET 2p
+44=G#2 HAT SET 2p
+46=A#2 HAT SET 2p
+49=C#3 Kik&CymSET 5
+51=D#3 Kik&CymSET 5
+52=E 3 Kik&CymSET 5
+53=F 3 Kik&CymSET 5
+54=F#3 Kik&CymSET 5
+55=G 3 Kik&CymSET 5
+
+; uses set waveforms 113,118,117,141
+[Roland SR-JV80-10 Menu:132 Whammer KIT]
+34=A#1 HAT SET 2f
+35=B 1 Kik&CymSET12
+36=C 2 Kik&CymSET12
+37=C#2 SNR SET 2p/2f
+38=D 2 SNR SET 2p/2f
+39=D#2 SNR SET 2p/2f
+40=E 2 SNR SET 2p/2f
+42=F#2 HAT SET 2f
+44=G#2 HAT SET 2f
+46=A#2 HAT SET 2f
+49=C#3 Kik&CymSET12
+51=D#3 Kik&CymSET12
+52=E 3 Kik&CymSET12
+53=F 3 Kik&CymSET12
+54=F#3 Kik&CymSET12
+55=G 3 Kik&CymSET12
+
+; uses set waveforms 105,126,141,148
+[Roland SR-JV80-10 Menu:133 BigBalladKIT]
+34=A#1 HAT SET 2f
+35=B 1 Kik&CymSET 4
+36=C 2 Kik&CymSET 4
+37=C#2 SNR SET 6f
+38=D 2 SNR SET 6f
+39=D#2 SNR SET 6f
+40=E 2 SNR SET 6f
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 2f
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 2f
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 2f
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 4
+50=D 3 TOM SET
+51=D#3 Kik&CymSET 4
+52=E 3 Kik&CymSET 4
+53=F 3 Kik&CymSET 4
+54=F#3 Kik&CymSET 4
+55=G 3 Kik&CymSET 4
+
+; uses set waveforms 104,128,138,148
+[Roland SR-JV80-10 Menu:134 Fat PunchKIT]
+34=A#1 HAT SET 1f
+35=B 1 Kik&CymSET 3
+36=C 2 Kik&CymSET 3
+37=C#2 SNR SET 7f
+38=D 2 SNR SET 7f
+39=D#2 SNR SET 7f
+40=E 2 SNR SET 7f
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 1f
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 1f
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 1f
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 3
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 3
+52=E 3 Kik&CymSET 3
+53=F 3 Kik&CymSET 3
+54=F#3 Kik&CymSET 3
+55=G 3 Kik&CymSET 3
+
+; uses set waveforms 104,131,138,148
+[Roland SR-JV80-10 Menu:135 Fat Funk KIT]
+34=A#1 HAT SET 1f
+35=B 1 Kik&CymSET 3
+36=C 2 Kik&CymSET 3
+37=C#2 SNR SET 9p
+38=D 2 SNR SET 9p
+39=D#2 SNR SET 9p
+40=E 2 SNR SET 9p
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 1f
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 1f
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 1f
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 3
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 3
+52=E 3 Kik&CymSET 3
+53=F 3 Kik&CymSET 3
+54=F#3 Kik&CymSET 3
+55=G 3 Kik&CymSET 3
+
+; uses set waveforms 105,115,144,137
+[Roland SR-JV80-10 Menu:136 Garage KIT]
+34=A#1 HAT SET 1p
+35=B 1 Kik&CymSET 4
+36=C 2 Kik&CymSET 4
+37=C#2 SNR SET 1p
+38=D 2 SNR SET 1p
+39=D#2 SNR SET 1p
+40=E 2 SNR SET 1p
+41=F 2 TOM SET 1p
+42=F#2 HAT SET 1p
+43=G 2 TOM SET 1p
+44=G#2 HAT SET 1p
+45=A 2 TOM SET 1p
+46=A#2 HAT SET 1p
+47=B 2 TOM SET 1p
+48=C 3 TOM SET 1p
+49=C#3 Kik&CymSET 4
+50=D 3 TOM SET 1p
+51=D#3 Kik&CymSET 4
+52=E 3 Kik&CymSET 4
+53=F 3 Kik&CymSET 4
+54=F#3 Kik&CymSET 4
+55=G 3 Kik&CymSET 4
+
+; uses set waveforms 104,124,141,145
+[Roland SR-JV80-10 Menu:137 Rock On KIT]
+34=A#1 HAT SET 2f
+35=B 1 Kik&CymSET
+36=C 2 Kik&CymSET
+37=C#2 SNR SET 5f
+38=D 2 SNR SET 5f
+39=D#2 SNR SET 5f
+40=E 2 SNR SET 5f
+41=F 2 TOM SET 1f
+42=F#2 HAT SET 2f
+43=G 2 TOM SET 1f
+44=G#2 HAT SET 2f
+45=A 2 TOM SET 1f
+46=A#2 HAT SET 2f
+47=B 2 TOM SET 1f
+48=C 3 TOM SET 1f
+49=C#3 Kik&CymSET
+50=D 3 TOM SET 1f
+51=D#3 Kik&CymSET
+52=E 3 Kik&CymSET
+53=F 3 Kik&CymSET
+54=F#3 Kik&CymSET
+55=G 3 Kik&CymSET
+
+; uses set waveforms 111,119,140,144
+[Roland SR-JV80-10 Menu:138 Natural KIT]
+34=A#1 HAT SET 2p
+35=B 1 Kik&CymSET10
+36=C 2 Kik&CymSET10
+37=C#2 SNR SET 3p
+38=D 2 SNR SET 3p
+39=D#2 SNR SET 3p
+40=E 2 SNR SET 3p
+41=F 2 TOM SET 1p
+42=F#2 HAT SET 2p
+43=G 2 TOM SET 1p
+44=G#2 HAT SET 2p
+45=A 2 TOM SET 1p
+46=A#2 HAT SET 2p
+47=B 2 TOM SET 1p
+48=C 3 TOM SET 1p
+49=C#3 Kik&CymSET10
+50=D 3 TOM SET 1p
+51=D#3 Kik&CymSET10
+52=E 3 Kik&CymSET10
+53=F 3 Kik&CymSET10
+54=F#3 Kik&CymSET10
+55=G 3 Kik&CymSET10
+
+; uses set waveforms 105,119,144,137
+[Roland SR-JV80-10 Menu:139 Pitched KIT]
+34=A#1 HAT SET 1p
+35=B 1 Kik&CymSET 4
+36=C 2 Kik&CymSET 4
+37=C#2 SNR SET 3p
+38=D 2 SNR SET 3p
+39=D#2 SNR SET 3p
+40=E 2 SNR SET 3p
+41=F 2 TOM SET 1p
+42=F#2 HAT SET 1p
+43=G 2 TOM SET 1p
+44=G#2 HAT SET 1p
+45=A 2 TOM SET 1p
+46=A#2 HAT SET 1p
+47=B 2 TOM SET 1p
+48=C 3 TOM SET 1p
+49=C#3 Kik&CymSET 4
+50=D 3 TOM SET 1p
+51=D#3 Kik&CymSET 4
+52=E 3 Kik&CymSET 4
+53=F 3 Kik&CymSET 4
+54=F#3 Kik&CymSET 4
+55=G 3 Kik&CymSET 4
+
+; uses set waveforms 105,123,148,138
+[Roland SR-JV80-10 Menu:140 Basher KIT]
+34=A#1 HAT SET 1f
+35=B 1 Kik&CymSET 4
+36=C 2 Kik&CymSET 4
+37=C#2 SNR SET 5p
+38=D 2 SNR SET 5p
+39=D#2 SNR SET 5p
+40=E 2 SNR SET 5p
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 1f
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 1f
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 1f
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 4
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 4
+52=E 3 Kik&CymSET 4
+53=F 3 Kik&CymSET 4
+54=F#3 Kik&CymSET 4
+55=G 3 Kik&CymSET 4
+
+; uses set waveforms 113,123,140,144
+[Roland SR-JV80-10 Menu:141 Edgy KIT]
+34=A#1 HAT SET 2p
+35=B 1 Kik&CymSET12
+36=C 2 Kik&CymSET12
+37=C#2 SNR SET 5p
+38=D 2 SNR SET 5p
+39=D#2 SNR SET 5p
+40=E 2 SNR SET 5p
+41=F 2 TOM SET 1p
+42=F#2 HAT SET 2p
+43=G 2 TOM SET 1p
+44=G#2 HAT SET 2p
+45=A 2 TOM SET 1p
+46=A#2 HAT SET 2p
+47=B 2 TOM SET 1p
+48=C 3 TOM SET 1p
+49=C#3 Kik&CymSET12
+50=D 3 TOM SET 1p
+51=D#3 Kik&CymSET12
+52=E 3 Kik&CymSET12
+53=F 3 Kik&CymSET12
+54=F#3 Kik&CymSET12
+55=G 3 Kik&CymSET12
+
+; uses set waveforms 112,125,141,145
+[Roland SR-JV80-10 Menu:142 FAT Comp.KIT]
+34=A#1 HAT SET 2f
+35=B 1 Kik&CymSET11
+36=C 2 Kik&CymSET11
+37=C#2 SNR SET 6p
+38=D 2 SNR SET 6p
+39=D#2 SNR SET 6p
+40=E 2 SNR SET 6p
+41=F 2 TOM SET 1f
+42=F#2 HAT SET 2f
+43=G 2 TOM SET 1f
+44=G#2 HAT SET 2f
+45=A 2 TOM SET 1f
+46=A#2 HAT SET 2f
+47=B 2 TOM SET 1f
+48=C 3 TOM SET 1f
+49=C#3 Kik&CymSET11
+50=D 3 TOM SET 1f
+51=D#3 Kik&CymSET11
+52=E 3 Kik&CymSET11
+53=F 3 Kik&CymSET11
+54=F#3 Kik&CymSET11
+55=G 3 Kik&CymSET11
+
+; uses set waveforms 107,128,138,145
+[Roland SR-JV80-10 Menu:143 FAT & Tight]
+34=A#1 HAT SET 1f
+35=B 1 Kik&CymSET 6
+36=C 2 Kik&CymSET 6
+37=C#2 SNR SET 7f
+38=D 2 SNR SET 7f
+39=D#2 SNR SET 7f
+40=E 2 SNR SET 7f
+41=F 2 TOM SET 1f
+42=F#2 HAT SET 1f
+43=G 2 TOM SET 1f
+44=G#2 HAT SET 1f
+45=A 2 TOM SET 1f
+46=A#2 HAT SET 1f
+47=B 2 TOM SET 1f
+48=C 3 TOM SET 1f
+49=C#3 Kik&CymSET 6
+50=D 3 TOM SET 1f
+51=D#3 Kik&CymSET 6
+52=E 3 Kik&CymSET 6
+53=F 3 Kik&CymSET 6
+54=F#3 Kik&CymSET 6
+55=G 3 Kik&CymSET 6
+
+; uses set waveforms 106,130,141,148
+[Roland SR-JV80-10 Menu:144 Studio KIT]
+34=A#1 HAT SET 2f
+35=B 1 Kik&CymSET 5
+36=C 2 Kik&CymSET 5
+37=C#2 SNR SET 8f
+38=D 2 SNR SET 8f
+39=D#2 SNR SET 8f
+40=E 2 SNR SET 8f
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 2f
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 2f
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 2f
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 5
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 5
+52=E 3 Kik&CymSET 5
+53=F 3 Kik&CymSET 5
+54=F#3 Kik&CymSET 5
+55=G 3 Kik&CymSET 5
+
+; uses set waveforms 108,132,137,148
+[Roland SR-JV80-10 Menu:145 Tight FunKIT]
+34=A#1 HAT SET 1p
+35=B 1 Kik&CymSET 7
+36=C 2 Kik&CymSET 7
+37=C#2 SNR SET 9f
+38=D 2 SNR SET 9f
+39=D#2 SNR SET 9f
+40=E 2 SNR SET 9f
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 1p
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 1p
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 1p
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 7
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 7
+52=E 3 Kik&CymSET 7
+53=F 3 Kik&CymSET 7
+54=F#3 Kik&CymSET 7
+55=G 3 Kik&CymSET 7
+
+; uses set waveforms 108,134,137,148
+[Roland SR-JV80-10 Menu:146 TightPiccKIT]
+34=A#1 HAT SET 1p
+35=B 1 Kik&CymSET 7
+36=C 2 Kik&CymSET 7
+37=C#2 SNR SET 10f
+38=D 2 SNR SET 10f
+39=D#2 SNR SET 10f
+40=E 2 SNR SET 10f
+41=F 2 TOM SET 3f
+42=F#2 HAT SET 1p
+43=G 2 TOM SET 3f
+44=G#2 HAT SET 1p
+45=A 2 TOM SET 3f
+46=A#2 HAT SET 1p
+47=B 2 TOM SET 3f
+48=C 3 TOM SET 3f
+49=C#3 Kik&CymSET 7
+50=D 3 TOM SET 3f
+51=D#3 Kik&CymSET 7
+52=E 3 Kik&CymSET 7
+53=F 3 Kik&CymSET 7
+54=F#3 Kik&CymSET 7
+55=G 3 Kik&CymSET 7
+
+; uses set waveforms 114,135,143,146
+[Roland SR-JV80-10 Menu:147 Dry DanceKIT]
+34=A#1 HAT SET 3
+35=B 1 Kik&CymSET13
+36=C 2 Kik&CymSET13
+37=C#2 SNR SET 11p
+38=D 2 SNR SET 11p
+39=D#2 SNR SET 11p
+40=E 2 SNR SET 11p
+41=F 2 TOM SET 2
+42=F#2 HAT SET 3
+43=G 2 TOM SET 2
+44=G#2 HAT SET 3
+45=A 2 TOM SET 2
+46=A#2 HAT SET 3
+47=B 2 TOM SET 2
+48=C 3 TOM SET 2
+49=C#3 Kik&CymSET13
+50=D 3 TOM SET 2
+51=D#3 Kik&CymSET13
+52=E 3 Kik&CymSET13
+53=F 3 Kik&CymSET13
+54=F#3 Kik&CymSET13
+55=G 3 Kik&CymSET13
+
+; uses set waveforms 110,136,143,146
+[Roland SR-JV80-10 Menu:148 R&B KIT]
+34=A#1 HAT SET 3
+35=B 1 Kik&CymSET 9
+36=C 2 Kik&CymSET 9
+37=C#2 SNR SET 11f
+38=D 2 SNR SET 11f                 
+39=D#2 SNR SET 11f
+40=E 2 SNR SET 11f
+41=F 2 TOM SET 2
+42=F#2 HAT SET 3
+43=G 2 TOM SET 2
+44=G#2 HAT SET 3
+45=A 2 TOM SET 2
+46=A#2 HAT SET 3
+47=B 2 TOM SET 2
+48=C 3 TOM SET 2
+49=C#3 Kik&CymSET 9
+50=D 3 TOM SET 2
+51=D#3 Kik&CymSET 9
+52=E 3 Kik&CymSET 9
+53=F 3 Kik&CymSET 9
+54=F#3 Kik&CymSET 9
+55=G 3 Kik&CymSET 9
+
+; uses set waveforms 121,122,137,105
+[Roland SR-JV80-10 Menu:149 DynoSnareKIT]
+34=A#1 HAT SET 1p
+35=B 1 Kik&CymSET 4
+36=C 2 Kik&CymSET 4
+37=C#2 SNR SET 4p/4f
+38=D 2 SNR SET 4p/4f
+39=D#2 SNR SET 4p/4f
+40=E 2 SNR SET 4p/4f
+42=F#2 HAT SET 1p
+44=G#2 HAT SET 1p
+46=A#2 HAT SET 1p
+49=C#3 Kik&CymSET 4
+51=D#3 Kik&CymSET 4
+52=E 3 Kik&CymSET 4
+53=F 3 Kik&CymSET 4
+54=F#3 Kik&CymSET 4
+55=G 3 Kik&CymSET 4
+
+; ----------------------------------------------------------------------
+
+.Controller Names
+
+
+; ----------------------------------------------------------------------
+
+.RPN Names
+
+
+; ----------------------------------------------------------------------
+
+.NRPN Names
+
+
+; ----------------------------------------------------------------------
+
+.Instrument Definitions
+
+
+; If you manually insert this Instrument Definition into your Master.ins,
+; you must modify the Expansion Slot Bank Numbers below to your Expansion
+; Board configuration.
+;
+; It is easier to Drag the Expansion Board Names within the Cakewalk
+; "Define Instruments and Names" dialog.
+;
+; See the Cakewalk Readme.rtf file or the Li'l Chips SR-JV80 Info page.
+;
+; Number   Slot Bank
+; 10752    A1 (patches 1-128)
+; 10753    A2 (patches 129-255)
+; 10754    B1 (patches 1-128)
+; 10755    B2 (patches 129-255)
+; 10756    C1 (patches 1-128)
+; 10757    C2 (patches 129-255)
+; 10758    D1 (patches 1-128)
+; 10759    D2 (patches 129-255)
+; 10760    E1 (patches 1-128)
+; 10761    E2 (patches 129-255)
+; 10762    F1 (patches 1-128)
+; 10763    F2 (patches 129-255)
+; 10764    G1 (patches 1-128)
+; 10765    G2 (patches 129-255)
+; 10766    H1 (patches 1-128)
+; 10767    H2 (patches 129-255)
+
+; Expansion Board Slot-A
+[Roland SR-JV80-10 Bass&Drums Expansion]
+Patch[10752]=Roland SR-JV80-10 Bass&Drums 001-128
+Patch[10753]=Roland SR-JV80-10 Bass&Drums 129-204
+
+Key[10752,104]=Roland SR-JV80-10 Menu:105 Kick Menu
+Key[10752,105]=Roland SR-JV80-10 Menu:106 Snare Menu 1
+Key[10752,106]=Roland SR-JV80-10 Menu:107 Snare Menu 2
+Key[10752,107]=Roland SR-JV80-10 Menu:108 Snare Menu 3
+Key[10752,108]=Roland SR-JV80-10 Menu:109 Hi-Hat Menu
+Key[10752,109]=Roland SR-JV80-10 Menu:110 Tom-Tom Menu
+Key[10752,110]=Roland SR-JV80-10 Menu:111 Cymbals Menu
+Key[10753,0]=Roland SR-JV80-10 Menu:129 Fat Rock KIT
+Key[10753,1]=Roland SR-JV80-10 Menu:130 Ringer KIT
+Key[10753,2]=Roland SR-JV80-10 Menu:131 DynaPicc.KIT
+Key[10753,3]=Roland SR-JV80-10 Menu:132 Whammer KIT
+Key[10753,4]=Roland SR-JV80-10 Menu:133 BigBalladKIT
+Key[10753,5]=Roland SR-JV80-10 Menu:134 Fat PunchKIT
+Key[10753,6]=Roland SR-JV80-10 Menu:135 Fat Funk KIT
+Key[10753,7]=Roland SR-JV80-10 Menu:136 Garage KIT
+Key[10753,8]=Roland SR-JV80-10 Menu:137 Rock On KIT
+Key[10753,9]=Roland SR-JV80-10 Menu:138 Natural KIT
+Key[10753,10]=Roland SR-JV80-10 Menu:139 Pitched KIT
+Key[10753,11]=Roland SR-JV80-10 Menu:140 Basher KIT
+Key[10753,12]=Roland SR-JV80-10 Menu:141 Edgy KIT
+Key[10753,13]=Roland SR-JV80-10 Menu:142 FAT Comp.KIT
+Key[10753,14]=Roland SR-JV80-10 Menu:143 FAT & Tight
+Key[10753,15]=Roland SR-JV80-10 Menu:144 Studio KIT
+Key[10753,16]=Roland SR-JV80-10 Menu:145 Tight FunKIT
+Key[10753,17]=Roland SR-JV80-10 Menu:146 TightPiccKIT
+Key[10753,18]=Roland SR-JV80-10 Menu:147 Dry DanceKIT
+Key[10753,19]=Roland SR-JV80-10 Menu:148 R&B KIT
+Key[10753,20]=Roland SR-JV80-10 Menu:149 DynoSnareKIT
+Drum[10752,104]=1
+Drum[10752,105]=1
+Drum[10752,106]=1
+Drum[10752,107]=1
+Drum[10752,108]=1
+Drum[10752,109]=1
+Drum[10752,110]=1
+Drum[10753,0]=1
+Drum[10753,1]=1
+Drum[10753,2]=1
+Drum[10753,3]=1
+Drum[10753,4]=1
+Drum[10753,5]=1
+Drum[10753,6]=1
+Drum[10753,7]=1
+Drum[10753,8]=1
+Drum[10753,9]=1
+Drum[10753,10]=1
+Drum[10753,11]=1
+Drum[10753,12]=1
+Drum[10753,13]=1
+Drum[10753,14]=1
+Drum[10753,15]=1
+Drum[10753,16]=1
+Drum[10753,17]=1
+Drum[10753,18]=1
+Drum[10753,19]=1
+Drum[10753,20]=1
+
+
+; Expansion Board Slot-A
+[Roland SR-JV80-10 Bass&Drums Rhythm]
+Patch[10752]=Roland SR-JV80-10 Bass&Drums Rhythm 001-008
+
+Key[10752,0]=Roland SR-JV80-10 Rhythm:01 R&R rhythm 1
+Key[10752,1]=Roland SR-JV80-10 Rhythm:02 Funk SET
+Key[10752,2]=Roland SR-JV80-10 Rhythm:03 Natural SET
+Key[10752,3]=Roland SR-JV80-10 Rhythm:04 Slam SET
+Key[10752,4]=Roland SR-JV80-10 Rhythm:05 Ballad SET
+Key[10752,5]=Roland SR-JV80-10 Rhythm:06 Studio SET
+Key[10752,6]=Roland SR-JV80-10 Rhythm:07 R&R rhythm 2
+Key[10752,7]=Roland SR-JV80-10 Rhythm:08 Dance SET
+Drum[10752,0]=1
+Drum[10752,1]=1
+Drum[10752,2]=1
+Drum[10752,3]=1
+Drum[10752,4]=1
+Drum[10752,5]=1
+Drum[10752,6]=1
+Drum[10752,7]=1
